@@ -1,0 +1,63 @@
+--- drivers/iommu/msm_iommu-v1.c
++++ drivers/iommu/msm_iommu-v1.c
+@@ -302,19 +302,59 @@
+ 	}
+ }
+ 
++static unsigned int dump_cnt = 0;
++
++#include <linux/sched.h>
+ static void __sync_tlb(struct msm_iommu_drvdata *iommu_drvdata, int ctx)
+ {
+ 	unsigned int val;
+ 	unsigned int res;
++	unsigned long long start, end;
++
+ 	void __iomem *base = iommu_drvdata->base;
+ 
++	unsigned int debug = 0;
++
++	struct thread_info *ti;
++
++	if (!strncmp("mdp_iommu", iommu_drvdata->name, strlen("mdp_iommu")))
++	{
++		debug = 1;
++		dump_cnt++;
++		ti = task_thread_info(current);
++	}
++
+ 	SET_TLBSYNC(base, ctx, 0);
+ 	/* No barrier needed due to read dependency */
+ 
++	if (debug)
++	{
++		if (dump_cnt%1000==0)
++		{
++			pr_err("[%s] (b)preempt_count : %x\n", __func__, ti->preempt_count);
++			check_tlb_sync_state(iommu_drvdata, ctx);
++		}
++	}
++
++	start = sched_clock();
+ 	res = readl_tight_poll_timeout(CTX_REG(CB_TLBSTATUS, base, ctx), val,
+ 				(val & CB_TLBSTATUS_SACTIVE) == 0, 5000000);
+-	if (res)
++	end = sched_clock();
++
++	if (debug)
++	{
++		if (dump_cnt%1000==0)
++		{
++			pr_err("[%s] (a)preempt_count : %x\n", __func__, ti->preempt_count);
++			check_tlb_sync_state(iommu_drvdata, ctx);
++		}
++	}
++
++	if (res) {
++		pr_err("[%s] elapse : %lld\n", __func__, end-start);
+ 		check_tlb_sync_state(iommu_drvdata, ctx);
++		BUG();
++	}
+ }
+ 
+ static int __flush_iotlb_va(struct iommu_domain *domain, unsigned int va)

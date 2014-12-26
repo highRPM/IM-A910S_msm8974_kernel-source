@@ -1,0 +1,1338 @@
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Booting Linux on physical CPU 0
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Initializing cgroup subsys cpu
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Linux version 3.4.0 (p13042@bs139) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #6 SMP PREEMPT Fri May 9 18:49:19 KST 2014
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] CPU: ARMv7 Processor [512f06f1] revision 1 (ARMv7), cr=10c5387d
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Machine: Qualcomm MSM 8974 (Flattened Device Tree), model: Qualcomm MSM 8974Pro-AA/AB - Pantech EF63L
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] qcom,ion-heap@28 reserved EBI1 size 614000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] qcom,mdss_fb_primary reserved EBI1 size 800000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Node qcom,mdss_fb_primary memblock_reserve memory 3200000-5000000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] qcom,msm-rtb reserved EBI1 size 100000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] qcom,msm-contig-mem reserved EBI1 size 280000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Node qcom,msm-mem-hole removed memory 5a00000-d200000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Node qcom,msm-mem-hole removed memory fa00000-ff00000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] memory pool 3 (start 0xdee00000 size 1200000) initialized
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] cma: CMA: reserved 16 MiB at 35800000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] cma: Found secure_region, memory base 0, size 252 MiB
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] cma: CMA: reserved 252 MiB at cf000000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] cma: Found adsp_region, memory base 0, size 63 MiB
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] cma: CMA: reserved 64 MiB at cb000000
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] cma: Found qsecom_region, memory base 0, size 17 MiB
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] cma: CMA: reserved 20 MiB at c9c00000
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Memory policy: ECC disabled, Data cache writealloc
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] IMEM DT static mapping successful
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] On node 0 totalpages: 749824
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] free_area_init_node: node 0, pgdat c102ff00, node_mem_map cd200000
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]   Normal zone: 1965 pages used for memmap
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]   Normal zone: 0 pages reserved
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]   Normal zone: 189523 pages, LIFO batch:31
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]   HighMem zone: 6100 pages used for memmap
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]   HighMem zone: 552236 pages, LIFO batch:31
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] PERCPU: Embedded 10 pages/cpu @cf1e9000 s16832 r8192 d15936 u40960
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] pcpu-alloc: s16832 r8192 d15936 u40960 alloc=10*4096
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+<7>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 741759
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Kernel command line: console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 vmalloc=260M androidboot.emmc=true androidboot.serialno=c311580d androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_ams529_1080p_cmd_ef63_tp20
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] PID hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Memory: 90MB 40MB 1281MB 1518MB = 2929MB total
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Memory: 2559748k/2559748k available, 457980k reserved, 1889280K highmem
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] Virtual kernel memory layout:
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] 	   vmalloc : 0xf7000000 - 0xff000000   ( 128 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] 	    lowmem : 0xcff00000 - 0xf6900000   ( 618 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] 	   vmalloc : 0xcfa00000 - 0xcff00000   (   5 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] 	    lowmem : 0xcd200000 - 0xcfa00000   (  40 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] 	   vmalloc : 0xc5a00000 - 0xcd200000   ( 120 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] 	    lowmem : 0xc0000000 - 0xc5a00000   (  90 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]       .text : 0xc0008000 - 0xc0dd6b5c   (14139 kB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]       .init : 0xc0e00000 - 0xc0f161c0   (1113 kB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]       .data : 0xc0f18000 - 0xc1067120   (1341 kB)
+<5>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0]        .bss : 0xc1067144 - 0xc13b6f78   (3392 kB)
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [        swapper:    0] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Preemptible hierarchical RCU implementation.
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] 	RCU dyntick-idle grace-period acceleration is enabled.
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] NR_IRQS:16 nr_irqs:16 16
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] kmemleak: Kernel memory leak detector disabled
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] sched_clock: 32 bits at 19MHz, resolution 52ns, wraps every 223696ms
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Switching to timer-based delay loop
+<6>[    0.000000 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Console: colour dummy device 80x30
+<6>[    0.000228 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+<6>[    0.000253 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] pid_max: default: 32768 minimum: 301
+<6>[    0.001194 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Security Framework initialized
+<6>[    0.001227 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] SELinux:  Initializing.
+<7>[    0.001371 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] SELinux:  Starting in permissive mode
+<6>[    0.001718 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Mount-cache hash table entries: 512
+<6>[    0.006434 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Initializing cgroup subsys debug
+<6>[    0.006470 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Initializing cgroup subsys cpuacct
+<6>[    0.006488 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] Initializing cgroup subsys freezer
+<6>[    0.006893 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    0] CPU: Testing write buffer coherency: ok
+<6>[    0.007788 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    1] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+<6>[    0.007905 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    1] hw perfevents: enabled with ARMv7 Krait PMU driver, 5 counters available
+<6>[    0.011277 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    1] Setting up static identity map for 0x952e10 - 0x952e98
+<6>[    0.011420 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    1] Configuring XPU violations to be fatal errors
+<6>[    0.011457 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    1] MSM Memory Dump table set up
+<6>[    0.011476 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    1] [pantech_sys_reset_reason_init] prev_reset_reason : 0x00000000
+<6>[    0.011494 / 01-01 00:00:00.000]-CPU:0  [      swapper/0:    1] [pantech_sys_reset_reason_init] changed_reset_reason :0xDABC0031
+<6>[    0.017392 / 01-01 00:00:00.000]-CPU:1  [      swapper/1:    0] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+<6>[    0.020286 / 01-01 00:00:00.010]-CPU:2  [      swapper/2:    0] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+<6>[    0.023365 / 01-01 00:00:00.010]-CPU:3  [      swapper/3:    0] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+<6>[    0.023764 / 01-01 00:00:00.010]-CPU:0  [      swapper/0:    1] Brought up 4 CPUs
+<6>[    0.023786 / 01-01 00:00:00.010]-CPU:0  [      swapper/0:    1] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+<6>[    0.109993 / 01-01 00:00:00.100]-CPU:0  [      swapper/0:    1] dummy: 
+<6>[    0.465948 / 01-01 00:00:00.450]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 16
+<6>[    0.478603 / 01-01 00:00:00.460]-CPU:0  [      swapper/0:    1] DMA: preallocated 256 KiB pool for atomic coherent allocations
+<6>[    0.485549 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] KPI: Bootloader start count = 2415245441
+<6>[    0.485567 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] KPI: Bootloader end count = 2966483993
+<6>[    0.485582 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] KPI: Bootloader display count = 4096521683
+<6>[    0.485596 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] KPI: Bootloader load kernel count = 844377201
+<6>[    0.485612 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] KPI: Kernel MPM timestamp = 231045
+<6>[    0.485627 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] KPI: Kernel MPM Clock frequency = 32768
+<6>[    0.485649 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] socinfo_print: v8, id=217, ver=1.1, raw_id=1980, raw_ver=1, hw_plat=0, hw_plat_ver=65536
+<6>[    0.485660 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1]  accessory_chip=0, hw_plat_subtype=0, pmic_model=65537, pmic_die_revision=196609
+<3>[    0.486021 / 01-01 00:00:00.470]-CPU:0  [      swapper/0:    1] msm_8974_init_gpiomux:3771 socinfo_get_version 10001
+<6>[    0.559930 / 01-01 00:00:00.550]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 0 to 145 on device: msmgpio
+<6>[    0.636768 / 01-01 00:00:00.620]-CPU:0  [   kworker/0:0H:    5] msm_watchdog f9017000.qcom,wdt: MSM Watchdog Initialized
+<6>[    0.715616 / 01-01 00:00:00.700]-CPU:0  [      swapper/0:    1] 8841_s1: 675 <--> 1050 mV at 0 mV normal idle 
+<6>[    0.718472 / 01-01 00:00:00.700]-CPU:0  [      swapper/0:    1] 8841_s1_ao: 675 <--> 1050 mV at 0 mV normal idle 
+<6>[    0.721400 / 01-01 00:00:00.710]-CPU:0  [      swapper/0:    1] 8841_s1_so: 675 <--> 1050 mV at 675 mV normal idle 
+<6>[    0.724523 / 01-01 00:00:00.710]-CPU:0  [      swapper/0:    1] 8841_s2: 500 <--> 1050 mV at 0 mV normal idle 
+<6>[    0.727547 / 01-01 00:00:00.710]-CPU:0  [      swapper/0:    1] 8841_s2_corner: 0 <--> 0 mV at 0 mV normal idle 
+<6>[    0.730521 / 01-01 00:00:00.720]-CPU:0  [      swapper/0:    1] 8841_s2_corner_ao: 0 <--> 0 mV at 0 mV normal idle 
+<6>[    0.733428 / 01-01 00:00:00.720]-CPU:0  [      swapper/0:    1] 8841_s2_floor_corner: 0 <--> 0 mV at 0 mV normal idle 
+<6>[    0.736508 / 01-01 00:00:00.720]-CPU:0  [      swapper/0:    1] 8841_s3: 1050 mV normal idle 
+<6>[    0.739690 / 01-01 00:00:00.730]-CPU:0  [      swapper/0:    1] 8841_s4: 815 <--> 900 mV at 0 mV normal idle 
+<6>[    0.742563 / 01-01 00:00:00.730]-CPU:0  [      swapper/0:    1] 8841_s4_corner: 0 <--> 0 mV at 0 mV normal idle 
+<6>[    0.745948 / 01-01 00:00:00.730]-CPU:0  [      swapper/0:    1] 8841_s4_floor_corner: 0 <--> 0 mV at 0 mV normal idle 
+<6>[    0.749179 / 01-01 00:00:00.730]-CPU:0  [      swapper/0:    1] 8941_s1: 1300 mV normal idle 
+<6>[    0.752325 / 01-01 00:00:00.740]-CPU:0  [      swapper/0:    1] 8941_s2: 2150 mV normal idle 
+<6>[    0.755496 / 01-01 00:00:00.740]-CPU:0  [      swapper/0:    1] 8941_s3: 1800 mV normal idle 
+<6>[    0.758542 / 01-01 00:00:00.740]-CPU:0  [      swapper/0:    1] 8941_l1: 1225 mV normal idle 
+<6>[    0.761749 / 01-01 00:00:00.750]-CPU:0  [      swapper/0:    1] 8941_l2: 1200 mV normal idle 
+<6>[    0.764784 / 01-01 00:00:00.750]-CPU:0  [      swapper/0:    1] 8941_l3: 1225 mV normal idle 
+<6>[    0.767986 / 01-01 00:00:00.750]-CPU:0  [      swapper/0:    1] 8941_l4: 1225 mV normal idle 
+<6>[    0.771208 / 01-01 00:00:00.760]-CPU:0  [      swapper/0:    1] 8941_l5: 1800 mV normal idle 
+<6>[    0.774349 / 01-01 00:00:00.760]-CPU:0  [      swapper/0:    1] 8941_l6: 1800 mV normal idle 
+<6>[    0.777440 / 01-01 00:00:00.760]-CPU:0  [      swapper/0:    1] 8941_l7: 1800 mV normal idle 
+<6>[    0.780582 / 01-01 00:00:00.770]-CPU:0  [      swapper/0:    1] 8941_l8: 1800 mV normal idle 
+<6>[    0.783714 / 01-01 00:00:00.770]-CPU:0  [      swapper/0:    1] 8941_l9: 1800 <--> 2950 mV at 2950 mV normal idle 
+<6>[    0.786880 / 01-01 00:00:00.770]-CPU:0  [      swapper/0:    1] 8941_l10: 1800 <--> 2950 mV at 2950 mV normal idle 
+<6>[    0.790026 / 01-01 00:00:00.780]-CPU:0  [      swapper/0:    1] 8941_l11: 1300 <--> 1350 mV at 1300 mV normal idle 
+<6>[    0.793145 / 01-01 00:00:00.780]-CPU:0  [      swapper/0:    1] 8941_l12: 1800 mV normal idle 
+<6>[    0.796146 / 01-01 00:00:00.780]-CPU:0  [      swapper/0:    1] 8941_l12_ao: 1800 mV normal idle 
+<6>[    0.799215 / 01-01 00:00:00.780]-CPU:0  [      swapper/0:    1] 8941_l13: 1800 <--> 2950 mV at 2950 mV normal idle 
+<6>[    0.802386 / 01-01 00:00:00.790]-CPU:0  [      swapper/0:    1] 8941_l14: 1800 mV normal idle 
+<6>[    0.805489 / 01-01 00:00:00.790]-CPU:0  [      swapper/0:    1] 8941_l15: 2050 mV normal idle 
+<6>[    0.808826 / 01-01 00:00:00.790]-CPU:0  [      swapper/0:    1] 8941_l16: 2700 mV normal idle 
+<6>[    0.812008 / 01-01 00:00:00.800]-CPU:0  [      swapper/0:    1] 8941_l17: 2850 mV normal idle 
+<6>[    0.815150 / 01-01 00:00:00.800]-CPU:0  [      swapper/0:    1] 8941_l18: 2850 mV normal idle 
+<6>[    0.818206 / 01-01 00:00:00.800]-CPU:0  [      swapper/0:    1] 8941_l19: 2900 <--> 3350 mV at 2900 mV normal idle 
+<6>[    0.821443 / 01-01 00:00:00.810]-CPU:0  [      swapper/0:    1] 8941_l20: 2950 mV normal idle 
+<6>[    0.824533 / 01-01 00:00:00.810]-CPU:0  [      swapper/0:    1] 8941_l21: 2950 mV normal idle 
+<6>[    0.827717 / 01-01 00:00:00.810]-CPU:0  [      swapper/0:    1] 8941_l22: 2850 mV normal idle 
+<6>[    0.830921 / 01-01 00:00:00.820]-CPU:0  [      swapper/0:    1] 8941_l23: 2850 mV normal idle 
+<6>[    0.834507 / 01-01 00:00:00.820]-CPU:0  [      swapper/0:    1] 8941_l24: 3075 mV normal idle 
+<6>[    0.837846 / 01-01 00:00:00.820]-CPU:0  [      swapper/0:    1] 8941_lvs1: 
+<6>[    0.840521 / 01-01 00:00:00.830]-CPU:0  [      swapper/0:    1] 8941_lvs2: 
+<6>[    0.843311 / 01-01 00:00:00.830]-CPU:0  [      swapper/0:    1] 8941_lvs3: 
+<6>[    0.848816 / 01-01 00:00:00.830]-CPU:0  [      swapper/0:    1] PDN krait_pdn_phase_scaling_init: eFuse phase scaling factor = 1/4
+<6>[    0.848836 / 01-01 00:00:00.830]-CPU:0  [      swapper/0:    1] PDN krait_pdn_phase_scaling_init: initial phase scaling factor = 1/4
+<6>[    0.850679 / 01-01 00:00:00.840]-CPU:0  [      swapper/0:    1] krait0: 500 <--> 1120 mV at 900 mV fast normal idle 
+<6>[    0.853650 / 01-01 00:00:00.840]-CPU:0  [      swapper/0:    1] krait1: 500 <--> 1120 mV at 900 mV fast normal idle 
+<6>[    0.856833 / 01-01 00:00:00.840]-CPU:0  [      swapper/0:    1] krait2: 500 <--> 1120 mV at 900 mV fast normal idle 
+<6>[    0.859818 / 01-01 00:00:00.840]-CPU:0  [      swapper/0:    1] krait3: 500 <--> 1120 mV at 900 mV fast normal idle 
+<6>[    1.051399 / 01-01 00:00:01.040]-CPU:0  [      swapper/0:    1] msm-thermal qcom,msm-thermal.70: probe_psm:Failed reading node=/soc/qcom,msm-thermal, key=qcom,pmic-sw-mode-temp. KTM continues
+<6>[    1.053201 / 01-01 00:00:01.040]-CPU:0  [      swapper/0:    1] vdd_restriction_reg_init:Defer vdd rstr freq init
+<6>[    1.053225 / 01-01 00:00:01.040]-CPU:0  [      swapper/0:    1] msm-thermal qcom,msm-thermal.70: probe_ocr:Failed reading node=/soc/qcom,msm-thermal, key=qti,pmic-opt-curr-temp. KTM continues
+<7>[    1.054773 / 01-01 00:00:01.040]-CPU:0  [      swapper/0:    1] msm8974_init (192) : gpio and pwr setting.
+<6>[    1.054817 / 01-01 00:00:01.040]-CPU:0  [      swapper/0:    1] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+<6>[    1.054835 / 01-01 00:00:01.040]-CPU:0  [      swapper/0:    1] hw-breakpoint: maximum watchpoint size is 8 bytes.
+<6>[    1.056007 / 01-01 00:00:01.040]-CPU:0  [      swapper/0:    1] msm-jtag-fuse fc4be024.jtagfuse: JTag Fuse initialized
+<6>[    1.074404 / 01-01 00:00:01.060]-CPU:0  [      swapper/0:    1] 8941_boost: 5000 mV 
+<6>[    1.077189 / 01-01 00:00:01.060]-CPU:0  [      swapper/0:    1] 8941_mvs1: 
+<3>[    1.077290 / 01-01 00:00:01.060]-CPU:0  [      swapper/0:    1] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[    1.078181 / 01-01 00:00:01.060]-CPU:0  [      swapper/0:    1] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[    1.079766 / 01-01 00:00:01.060]-CPU:0  [      swapper/0:    1] 8941_mvs2: 
+<6>[    1.079835 / 01-01 00:00:01.060]-CPU:0  [      swapper/0:    1] 8941_mvs2: supplied by 8941_boost
+<4>[    1.084730 / 01-01 00:00:01.070]-CPU:3  [    kworker/u:1:   41] kworker/u:1 used greatest stack depth: 6364 bytes left
+<4>[    1.093009 / 01-01 00:00:01.080]-CPU:3  [    kworker/u:2:   46] kworker/u:2 used greatest stack depth: 6268 bytes left
+<3>[    1.093797 / 01-01 00:00:01.080]-CPU:0  [      swapper/0:    1] qup_i2c f9966000.i2c: Missing 'qcom,master-id' DT entry
+<3>[    1.096524 / 01-01 00:00:01.080]-CPU:0  [      swapper/0:    1] qup_i2c f9927000.i2c: Missing 'qcom,master-id' DT entry
+<6>[    1.102114 / 01-01 00:00:01.090]-CPU:0  [      swapper/0:    1] sps:BAM 0xf9984000 (va:0xc5ae0000) enabled: ver:0x6, number of pipes:20
+<6>[    1.102136 / 01-01 00:00:01.090]-CPU:0  [      swapper/0:    1] sps:BAM 0xf9984000 is registered.
+<6>[    1.102165 / 01-01 00:00:01.090]-CPU:0  [      swapper/0:    1] sps:sps is ready.
+<6>[    1.105768 / 01-01 00:00:01.090]-CPU:0  [      swapper/0:    1] spmi qpnp-bsi-f5684840: Driver qcom,qpnp-bsi requests probe deferral
+<6>[    1.110023 / 01-01 00:00:01.090]-CPU:0  [      swapper/0:    1] gdsc_venus: 
+<6>[    1.112138 / 01-01 00:00:01.100]-CPU:0  [      swapper/0:    1] gdsc_mdss: 
+<6>[    1.114226 / 01-01 00:00:01.100]-CPU:0  [      swapper/0:    1] gdsc_jpeg: 
+<6>[    1.116425 / 01-01 00:00:01.100]-CPU:0  [      swapper/0:    1] gdsc_vfe: 
+<6>[    1.118473 / 01-01 00:00:01.100]-CPU:0  [      swapper/0:    1] gdsc_oxili_gx: 
+<6>[    1.118576 / 01-01 00:00:01.100]-CPU:0  [      swapper/0:    1] gdsc_oxili_gx: supplied by 8841_s4_corner
+<6>[    1.121042 / 01-01 00:00:01.110]-CPU:0  [      swapper/0:    1] gdsc_oxili_cx: 
+<6>[    1.123079 / 01-01 00:00:01.110]-CPU:0  [      swapper/0:    1] gdsc_usb_hsic: 
+<3>[    1.124694 / 01-01 00:00:01.110]-CPU:0  [      swapper/0:    1] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+<6>[    1.129322 / 01-01 00:00:01.110]-CPU:0  [      swapper/0:    1] msm_bus_fabric fc478000.msm-mmss-noc: msmbus_coresight initialized
+<6>[    1.134025 / 01-01 00:00:01.120]-CPU:0  [      swapper/0:    1] msm_bus_fabric fc460000.msm-sys-noc: msmbus_coresight initialized
+<6>[    1.138689 / 01-01 00:00:01.120]-CPU:0  [      swapper/0:    1] msm_bus_fabric fc468000.msm-periph-noc: msmbus_coresight initialized
+<4>[    1.143691 / 01-01 00:00:01.130]-CPU:0  [      swapper/0:    1] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 5120
+<6>[    1.146544 / 01-01 00:00:01.130]-CPU:0  [      swapper/0:    1] msm_bus_fabric fc380000.msm-bimc: msmbus_coresight initialized
+<4>[    1.147837 / 01-01 00:00:01.130]-CPU:0  [      swapper/0:    1] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 6144
+<6>[    1.150707 / 01-01 00:00:01.140]-CPU:0  [      swapper/0:    1] msm_bus_fabric fc470000.msm-ocmem-noc: msmbus_coresight initialized
+<6>[    1.152410 / 01-01 00:00:01.140]-CPU:0  [      swapper/0:    1] msm_ocmem fdd00000.qcom,ocmem: OCMEM Virtual addr c5c00000
+<6>[    1.153577 / 01-01 00:00:01.140]-CPU:0  [      swapper/0:    1] Physical OCMEM zone layout:
+<6>[    1.153597 / 01-01 00:00:01.140]-CPU:0  [      swapper/0:    1]  zone graphics	: 0xfec00000 - 0xfecfffff (1024 KB)
+<6>[    1.153674 / 01-01 00:00:01.140]-CPU:0  [      swapper/0:    1]  zone lp_audio	: 0xfed00000 - 0xfed7ffff ( 512 KB)
+<6>[    1.153747 / 01-01 00:00:01.140]-CPU:0  [      swapper/0:    1]  zone video	: 0xfed00000 - 0xfed7ffff ( 512 KB)
+<6>[    1.325171 / 01-01 00:00:01.310]-CPU:0  [      swapper/0:    1] bio: create slab <bio-0> at 0
+<6>[    1.327923 / 01-01 00:00:01.310]-CPU:0  [      swapper/0:    1] platform spi_eth_phy_vreg.80: Driver reg-fixed-voltage requests probe deferral
+<6>[    1.330715 / 01-01 00:00:01.310]-CPU:0  [      swapper/0:    1] cma: Assigned CMA region at 0 to 8.qcom,ion-heap device
+<3>[    1.330926 / 01-01 00:00:01.310]-CPU:0  [      swapper/0:    1] ION-heap mm: Cannot specify alignment for this type of heap
+<6>[    1.331529 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] cma: Assigned CMA region at 0 to 16.qcom,ion-heap device
+<3>[    1.331724 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION-heap adsp: Cannot specify alignment for this type of heap
+<6>[    1.332229 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] cma: Assigned CMA region at 0 to 1b.qcom,ion-heap device
+<6>[    1.335710 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap system created
+<6>[    1.336106 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap kmalloc created
+<6>[    1.336384 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap mm created at 0xcf000000 with size fc00000
+<6>[    1.336540 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap adsp created at 0xcb000000 with size 3f00000
+<6>[    1.336675 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap qsecom created at 0xc9c00000 with size 1100000
+<6>[    1.336921 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap audio created at 0xdee00000 with size 614000
+<6>[    1.337097 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap pil_1 created at 0x05a00000 with size 2100000
+<6>[    1.337275 / 01-01 00:00:01.320]-CPU:0  [      swapper/0:    1] ION heap pil_2 created at 0x08000000 with size 5000000
+<5>[    1.344633 / 01-01 00:00:01.330]-CPU:0  [      swapper/0:    1] SCSI subsystem initialized
+<6>[    1.345812 / 01-01 00:00:01.330]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver usbfs
+<6>[    1.346486 / 01-01 00:00:01.330]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver hub
+<6>[    1.346995 / 01-01 00:00:01.330]-CPU:0  [      swapper/0:    1] usbcore: registered new device driver usb
+<6>[    1.348727 / 01-01 00:00:01.330]-CPU:0  [      swapper/0:    1] Linux media interface: v0.10
+<6>[    1.349134 / 01-01 00:00:01.330]-CPU:0  [      swapper/0:    1] Linux video capture interface: v2.00
+<6>[    1.358870 / 01-01 00:00:01.340]-CPU:0  [      swapper/0:    1] msm_iommu_v1 fda64000.qcom,iommu: device jpeg_iommu mapped at c5da0000, with 3 ctx banks
+<6>[    1.365830 / 01-01 00:00:01.350]-CPU:0  [      swapper/0:    1] msm_iommu_v1 fd928000.qcom,iommu: device mdp_iommu mapped at c5dc0000, with 3 ctx banks
+<6>[    1.374584 / 01-01 00:00:01.360]-CPU:0  [      swapper/0:    1] msm_iommu_v1 fdc84000.qcom,iommu: device venus_iommu mapped at c5de0000, with 5 ctx banks
+<6>[    1.381596 / 01-01 00:00:01.370]-CPU:0  [      swapper/0:    1] msm_iommu_v1 fdb10000.qcom,iommu: device kgsl_iommu mapped at c5e00000, with 3 ctx banks
+<6>[    1.388125 / 01-01 00:00:01.370]-CPU:0  [      swapper/0:    1] msm_iommu_v1 fda44000.qcom,iommu: device vfe_iommu mapped at c5e20000, with 3 ctx banks
+<6>[    1.392877 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fda6c000.qcom,iommu-ctx: context jpeg_enc0 using bank 0
+<6>[    1.393332 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fda6d000.qcom,iommu-ctx: context jpeg_enc1 using bank 1
+<6>[    1.393751 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fda6e000.qcom,iommu-ctx: context jpeg_dec using bank 2
+<6>[    1.394262 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fd930000.qcom,iommu-ctx: context mdp_0 using bank 0
+<6>[    1.394887 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fd931000.qcom,iommu-ctx: context mdp_1 using bank 1
+<6>[    1.395359 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fd932000.qcom,iommu-ctx: context mdp_2 using bank 2
+<6>[    1.395915 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdc8c000.qcom,iommu-ctx: context venus_ns using bank 0
+<6>[    1.396430 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdc8d000.qcom,iommu-ctx: context venus_sec_bitstream using bank 1
+<6>[    1.396848 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdc8e000.qcom,iommu-ctx: context venus_fw using bank 2
+<6>[    1.397300 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdc8f000.qcom,iommu-ctx: context venus_sec_pixel using bank 3
+<6>[    1.397720 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdc90000.qcom,iommu-ctx: context venus_sec_non_pixel using bank 4
+<6>[    1.398258 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdb18000.qcom,iommu-ctx: context gfx3d_user using bank 0
+<6>[    1.398794 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdb19000.qcom,iommu-ctx: context gfx3d_priv using bank 1
+<6>[    1.399211 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fdb1a000.qcom,iommu-ctx: context gfx3d_spare using bank 2
+<6>[    1.399906 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fda4c000.qcom,iommu-ctx: context vfe0 using bank 0
+<6>[    1.400370 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fda4d000.qcom,iommu-ctx: context vfe1 using bank 1
+<6>[    1.400794 / 01-01 00:00:01.380]-CPU:0  [      swapper/0:    1] msm_iommu_ctx_v1 fda4e000.qcom,iommu-ctx: context cpp using bank 2
+<6>[    1.405643 / 01-01 00:00:01.390]-CPU:0  [      swapper/0:    1] Advanced Linux Sound Architecture Driver Version 1.0.25.
+<6>[    1.409525 / 01-01 00:00:01.390]-CPU:0  [      swapper/0:    1] Bluetooth: Core ver 2.16
+<6>[    1.409856 / 01-01 00:00:01.390]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 31
+<6>[    1.409873 / 01-01 00:00:01.390]-CPU:0  [      swapper/0:    1] Bluetooth: HCI device and connection manager initialized
+<6>[    1.409895 / 01-01 00:00:01.390]-CPU:0  [      swapper/0:    1] Bluetooth: HCI socket layer initialized
+<6>[    1.409914 / 01-01 00:00:01.390]-CPU:0  [      swapper/0:    1] Bluetooth: L2CAP socket layer initialized
+<6>[    1.410636 / 01-01 00:00:01.390]-CPU:0  [      swapper/0:    1] Bluetooth: SCO socket layer initialized
+<6>[    1.412334 / 01-01 00:00:01.400]-CPU:0  [    kworker/0:1:   27] cfg80211: Calling CRDA to update world regulatory domain
+<6>[    1.414061 / 01-01 00:00:01.400]-CPU:0  [      swapper/0:    1] Switching to clocksource arch_sys_counter
+<6>[    1.712223 / 01-01 00:00:01.690]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 2
+<6>[    1.713457 / 01-01 00:00:01.690]-CPU:0  [      swapper/0:    1] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    1.719801 / 01-01 00:00:01.700]-CPU:0  [      swapper/0:    1] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[    1.728185 / 01-01 00:00:01.710]-CPU:0  [      swapper/0:    1] TCP bind hash table entries: 65536 (order: 8, 1310720 bytes)
+<6>[    1.729015 / 01-01 00:00:01.710]-CPU:0  [      swapper/0:    1] TCP: Hash tables configured (established 131072 bind 65536)
+<6>[    1.729032 / 01-01 00:00:01.710]-CPU:0  [      swapper/0:    1] TCP: reno registered
+<6>[    1.729127 / 01-01 00:00:01.710]-CPU:0  [      swapper/0:    1] UDP hash table entries: 512 (order: 2, 24576 bytes)
+<6>[    1.729281 / 01-01 00:00:01.710]-CPU:0  [      swapper/0:    1] UDP-Lite hash table entries: 512 (order: 2, 24576 bytes)
+<6>[    1.731167 / 01-01 00:00:01.710]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 1
+<6>[    1.733153 / 01-01 00:00:01.710]-CPU:0  [      swapper/0:    1] Trying to unpack rootfs image as initramfs...
+<6>[    1.809325 / 01-01 00:00:01.790]-CPU:0  [      swapper/0:    1] Freeing initrd memory: 944K
+<6>[    1.809354 / 01-01 00:00:01.790]-CPU:0  [      swapper/0:    1] gpio_switch_init
+<6>[    1.810634 / 01-01 00:00:01.790]-CPU:0  [      swapper/0:    1] label : smart_cover , gpios : 65 , irq : 346 , event_mode : 0 , flag = 1
+<6>[    1.810775 / 01-01 00:00:01.790]-CPU:0  [      swapper/0:    1] label : sub_smart_cover1_detection , gpios : 64 , irq : 347 , event_mode : 1 , flag = 0
+<6>[    1.812052 / 01-01 00:00:01.790]-CPU:0  [      swapper/0:    1] input: smart_cover as /devices/virtual/input/input0
+<6>[    1.819676 / 01-01 00:00:01.800]-CPU:0  [      swapper/0:    1] Detected 9 counters on the L2CC PMU.
+<7>[    1.823696 / 01-01 00:00:01.800]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 992
+<6>[    1.824516 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 992 to 1023 on device: smp2p
+<7>[    1.826168 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 960
+<6>[    1.826938 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 960 to 991 on device: smp2p
+<7>[    1.827088 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 928
+<6>[    1.827847 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 928 to 959 on device: smp2p
+<7>[    1.829508 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 896
+<6>[    1.830250 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 896 to 927 on device: smp2p
+<7>[    1.830390 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 864
+<6>[    1.831234 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 864 to 895 on device: slave-kernel
+<7>[    1.832972 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 832
+<6>[    1.833745 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 832 to 863 on device: master-kernel
+<7>[    1.833955 / 01-01 00:00:01.810]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 800
+<6>[    1.834763 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 800 to 831 on device: smp2p
+<7>[    1.836493 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 768
+<6>[    1.837244 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 768 to 799 on device: smp2p
+<7>[    1.837391 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 736
+<6>[    1.838169 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 736 to 767 on device: slave-kernel
+<7>[    1.839887 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 704
+<6>[    1.840656 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 704 to 735 on device: master-kernel
+<7>[    1.840853 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 672
+<6>[    1.841614 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 672 to 703 on device: smp2p
+<7>[    1.843385 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 640
+<6>[    1.844127 / 01-01 00:00:01.820]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 640 to 671 on device: smp2p
+<7>[    1.844308 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 608
+<6>[    1.845083 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 608 to 639 on device: slave-kernel
+<7>[    1.846808 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 576
+<6>[    1.847575 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 576 to 607 on device: master-kernel
+<7>[    1.847788 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 544
+<6>[    1.848595 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 544 to 575 on device: rdbg
+<7>[    1.850446 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 512
+<6>[    1.851194 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 512 to 543 on device: rdbg
+<7>[    1.851380 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 480
+<6>[    1.852144 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 480 to 511 on device: rdbg
+<7>[    1.853958 / 01-01 00:00:01.830]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 448
+<6>[    1.854790 / 01-01 00:00:01.840]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 448 to 479 on device: rdbg
+<6>[    1.859689 / 01-01 00:00:01.840]-CPU:0  [      swapper/0:    1] pil-q6v5-lpass fe200000.qcom,lpass: using secure boot
+<6>[    1.876371 / 01-01 00:00:01.860]-CPU:0  [      swapper/0:    1] pil_pronto fb21b000.qcom,pronto: using secure boot
+<6>[    1.883711 / 01-01 00:00:01.860]-CPU:0  [      swapper/0:    1] pil_venus fdce0000.qcom,venus: using secure boot
+<6>[    1.929845 / 01-01 00:00:01.910]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 27
+<6>[    1.950204 / 01-01 00:00:01.930]-CPU:0  [      swapper/0:    1] clock-krait-8974 f9016000.qcom,clock-krait: PVS config version: 1
+<6>[    1.950312 / 01-01 00:00:01.930]-CPU:0  [      swapper/0:    1] clock-krait-8974 f9016000.qcom,clock-krait: Speed bin: 1
+<6>[    1.950332 / 01-01 00:00:01.930]-CPU:0  [      swapper/0:    1] clock-krait-8974 f9016000.qcom,clock-krait: PVS bin: 12
+<6>[    1.950349 / 01-01 00:00:01.930]-CPU:0  [      swapper/0:    1] clock-krait-8974 f9016000.qcom,clock-krait: PVS version: 1
+<6>[    1.969634 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] L2 @ 729600 KHz
+<6>[    1.969915 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] CPU0 @ 960000 KHz
+<6>[    1.969930 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] CPU1 @ unknown rate. Forcing new rate.
+<6>[    1.970086 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] CPU1 @ 300000 KHz
+<6>[    1.970101 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] CPU2 @ unknown rate. Forcing new rate.
+<6>[    1.970251 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] CPU2 @ 300000 KHz
+<6>[    1.970266 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] CPU3 @ unknown rate. Forcing new rate.
+<6>[    1.970414 / 01-01 00:00:01.950]-CPU:0  [      swapper/0:    1] CPU3 @ 300000 KHz
+<5>[    1.983208 / 01-01 00:00:01.960]-CPU:0  [      swapper/0:    1] msm_rpm_log_probe: OK
+<3>[    2.016503 / 01-01 00:00:02.000]-CPU:0  [    kworker/0:1:   27] ocmem: Client sensors (id: 6) not allowed to use OCMEM
+<3>[    2.016524 / 01-01 00:00:02.000]-CPU:0  [    kworker/0:1:   27] OCMEM notifier registration failed
+<3>[    2.016540 / 01-01 00:00:02.000]-CPU:0  [    kworker/0:1:   27] sns_ocmem_main: sns_ocmem_init failed -14
+<7>[    2.017176 / 01-01 00:00:02.000]-CPU:0  [      swapper/0:    1] pantech_apanic : pantech_log_header initialized success for write to SMEM
+<6>[    2.017194 / 01-01 00:00:02.000]-CPU:0  [      swapper/0:    1] apanic_pantech_init
+<6>[    2.022831 / 01-01 00:00:02.000]-CPU:0  [      swapper/0:    1] mpm_counter: [    2.022823]:(281411)
+<6>[    2.029524 / 01-01 00:00:02.010]-CPU:0  [      swapper/0:    1] [PANTECH_DBG] pantech_debug_init: vaddr=0xc6200000 paddr=0xdf515000 size=0x100000 sizeof(struct pantech_debug_log)=0xa8030
+<6>[    2.030535 / 01-01 00:00:02.010]-CPU:0  [      swapper/0:    1] [PANTECH_DBG] pantech_debug_init: init done
+<6>[    2.030542 / 01-01 00:00:02.010]-CPU:0  [      swapper/0:    1] Android kernel / Modem panic handler initialized 
+<6>[    2.031390 / 01-01 00:00:02.010]-CPU:0  [      swapper/0:    1] audit: initializing netlink socket (disabled)
+<7>[    2.093145 / 01-01 00:00:02.070]-CPU:0  [      swapper/0:    1] highmem bounce pool size: 64 pages
+<6>[    2.133430 / 01-01 00:00:02.110]-CPU:0  [      swapper/0:    1] fuse init (API version 7.18)
+<6>[    2.134602 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] msgmni has been set to 1343
+<7>[    2.134737 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] SELinux:  Registering netfilter hooks
+<6>[    2.140090 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+<6>[    2.140100 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] io scheduler noop registered
+<6>[    2.140108 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] io scheduler deadline registered
+<6>[    2.140525 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] io scheduler row registered
+<6>[    2.141282 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] io scheduler cfq registered (default)
+<6>[    2.141290 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] io scheduler test-iosched registered
+<7>[    2.141810 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 444
+<6>[    2.142152 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 444 to 447 on device: pm8841-mpp
+<7>[    2.142371 / 01-01 00:00:02.120]-CPU:0  [      swapper/0:    1] qcom,qpnp-pin qpnp-pin-f5684000: qpnp_pin_probe: gpio_chip registered between 444-447
+<7>[    2.144660 / 01-01 00:00:02.130]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 408
+<6>[    2.145009 / 01-01 00:00:02.130]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 408 to 443 on device: pm8941-gpio
+<7>[    2.146130 / 01-01 00:00:02.130]-CPU:0  [      swapper/0:    1] qcom,qpnp-pin qpnp-pin-f5686c00: qpnp_pin_probe: gpio_chip registered between 408-443
+<7>[    2.158296 / 01-01 00:00:02.140]-CPU:0  [      swapper/0:    1] ========pm_base : 408
+<7>[    2.158597 / 01-01 00:00:02.140]-CPU:0  [      swapper/0:    1] gpiochip_find_base: found new base at 401
+<6>[    2.158947 / 01-01 00:00:02.140]-CPU:0  [      swapper/0:    1] gpiochip_add: registered GPIOs 401 to 407 on device: pm8941-mpp
+<7>[    2.159315 / 01-01 00:00:02.140]-CPU:0  [      swapper/0:    1] qcom,qpnp-pin qpnp-pin-f5685340: qpnp_pin_probe: gpio_chip registered between 401-407
+<6>[    2.162095 / 01-01 00:00:02.140]-CPU:0  [      swapper/0:    1] mdss_mdp_probe: MDP HW Base phy_Address=0xfd900000 virt=0xc5e40000
+<6>[    2.162140 / 01-01 00:00:02.140]-CPU:0  [      swapper/0:    1] mdss_mdp_probe: MDSS VBIF HW Base phy_Address=0xfd924000 virt=0xc5dfa000
+<4>[    2.162837 / 01-01 00:00:02.140]-CPU:0  [      swapper/0:    1] mdss_mdp_parse_bootarg: mdss_mdp_parse_bootarg:1460: pan_name=[1:dsi:0:qcom,mdss_dsi_ams529_1080p_cmd_ef63_tp20] end=[]
+<6>[    2.166344 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_ctrl_probe: DSI Ctrl name = MDSS DSI CTRL->1
+<3>[    2.166425 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] controller config is not present
+<3>[    2.166434 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_pref_prim_panel:can't find panel phandle
+<3>[    2.166441 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_ctrl_probe: can't find panel node 0:qcom,mdss_dsi_ams529_1080p_cmd_ef63_tp20
+<4>[    2.166523 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_ctrl: probe of fd922e00.qcom,mdss_dsi failed with error 42
+<6>[    2.166594 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_ctrl_probe: DSI Ctrl name = MDSS DSI CTRL->0
+<6>[    2.166670 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_panel_init: Panel Name = ams529 1080p command mode dsi panel
+<3>[    2.166843 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_parse_dcs_cmds: dcs_cmd=39 len=45, cmd_cnt=5 link_state=0
+<3>[    2.166878 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_parse_dcs_cmds: dcs_cmd=39 len=378, cmd_cnt=26 link_state=0
+<3>[    2.166909 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_parse_dcs_cmds: dcs_cmd=5 len=16, cmd_cnt=2 link_state=1
+<3>[    2.166938 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_parse_dcs_cmds: dcs_cmd=5 len=9, cmd_cnt=1 link_state=0
+<3>[    2.166968 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_parse_dcs_cmds: dcs_cmd=39 len=19, cmd_cnt=2 link_state=0
+<3>[    2.166996 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_parse_dcs_cmds: dcs_cmd=39 len=10, cmd_cnt=1 link_state=0
+<3>[    2.167023 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_parse_dcs_cmds: dcs_cmd=39 len=38, cmd_cnt=4 link_state=0
+<6>[    2.167033 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_panel_init:2005 Continuous splash flag enabled.
+<6>[    2.167043 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_panel_init:2017 Partial update disabled.
+<3>[    2.167058 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1]  Boot Mode: Online
+<6>[    2.167811 / 01-01 00:00:02.150]-CPU:0  [      swapper/0:    1] mdss_dsi_retrieve_ctrl_resources: dsi base=c5e14800 size=600
+<6>[    2.234328 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_register_panel: adding framebuffer device fd922800.qcom,mdss_dsi
+<6>[    2.234800 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_hw_init: MDP Rev=10020001
+<4>[    2.236122 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] [mdss_dsi_ctrl_probe]value of sky_sys_rst_is_backlight_off = 0
+<6>[    2.236132 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] [pantech_sys_reset_backlight_flag_set] changed_reset_reason :0xDABC8031
+<6>[    2.238009 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_register_panel: adding framebuffer device qcom,mdss_wb_panel.5
+<6>[    2.239008 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_fb_alloc_fbmem_iommu: mdss_fb_alloc_fbmem_iommu frame buffer reserve_size=0x800000
+<4>[    2.239017 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_fb_alloc_fbmem_iommu: reserve size is smaller than framebuffer size
+<6>[    2.239336 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_fb_alloc_fbmem_iommu: allocating 8388608 bytes at c7000000 (df700000 phys) for fb 0
+<6>[    2.239927 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_fb_register: FrameBuffer[0] 1080x1920 size=8388608 registered successfully!
+<7>[    2.240460 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] Registered led device: lcd-backlight
+<6>[    2.241419 / 01-01 00:00:02.220]-CPU:0  [      swapper/0:    1] mdss_fb_register: FrameBuffer[1] 1920x1080 size=0 registered successfully!
+<3>[    2.372483 / 01-01 00:00:02.350]-CPU:0  [      swapper/0:    1] sps: BAM device 0xf9944000 is not registered yet.
+<6>[    2.372514 / 01-01 00:00:02.350]-CPU:0  [      swapper/0:    1] sps:BAM 0xf9944000 is registered.
+<6>[    2.376918 / 01-01 00:00:02.360]-CPU:0  [      swapper/0:    1] f995d000.uart: ttyHS0 at MMIO 0xf995d000 (irq = 145) is a MSM HS UART
+<4>[    2.376927 / 01-01 00:00:02.360]-CPU:0  [      swapper/0:    1] msm_hs_set_mctrl_locked:Failed.Clocks are OFF
+<6>[    2.380567 / 01-01 00:00:02.360]-CPU:0  [      swapper/0:    1] msm_serial_hsl_probe: detected port #0 (ttyHSL0)
+<6>[    2.380974 / 01-01 00:00:02.360]-CPU:0  [      swapper/0:    1] f9960000.serial: ttyHSL0 at MMIO 0xf9960000 (irq = 148) is a MSM
+<6>[    2.383425 / 01-01 00:00:02.360]-CPU:0  [      swapper/0:    1] msm_hsl_console_setup: console setup on port #0
+<6>[    5.867946 / 01-01 00:00:05.850]-CPU:0  [      swapper/0:    1] console [ttyHSL0] enabled
+<7>[    5.875942 / 01-01 00:00:05.860]-CPU:0  [    kworker/0:1:   27] [PANTECH_LCD]MaganaIC_connect: id1=20, id2=.., id3=.
+<6>[    5.876720 / 01-01 00:00:05.860]-CPU:0  [      swapper/0:    1] msm_serial_hsl_init: driver initialized
+<7>[    5.885387 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[0] = 0 0x0
+<7>[    5.885395 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[1] = 75 0x4b
+<7>[    5.885402 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[2] = 0 0x0
+<7>[    5.885408 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[3] = 31 0x1f
+<7>[    5.885415 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[4] = 0 0x0
+<7>[    5.885422 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[5] = 107 0x6b
+<7>[    5.885428 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[6] = 93 0x5d
+<7>[    5.885435 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[7] = 96 0x60
+<7>[    5.885444 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] Reg Offset  = 0x0 index = 0 mtp_write_data = 0
+<7>[    5.886580 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[8] = 94 0x5e
+<7>[    5.886588 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[9] = 89 0x59
+<7>[    5.886595 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[10] = 92 0x5c
+<7>[    5.886601 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[11] = 89 0x59
+<7>[    5.886608 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[12] = 78 0x4e
+<7>[    5.886614 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[13] = 80 0x50
+<7>[    5.886620 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[14] = 76 0x4c
+<7>[    5.886627 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[15] = 85 0x55
+<7>[    5.886637 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] Reg Offset  = 0x8 index = 1 mtp_write_data = 8
+<7>[    5.887782 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[16] = 90 0x5a
+<7>[    5.887791 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[17] = 85 0x55
+<7>[    5.887798 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[18] = 99 0x63
+<7>[    5.887804 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[19] = 101 0x65
+<7>[    5.887811 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[20] = 100 0x64
+<7>[    5.887818 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[21] = 99 0x63
+<7>[    5.887825 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[22] = 104 0x68
+<7>[    5.887832 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[23] = 104 0x68
+<7>[    5.887841 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] Reg Offset  = 0x10 index = 2 mtp_write_data = 16
+<7>[    5.889005 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[24] = 85 0x55
+<7>[    5.889012 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[25] = 98 0x62
+<7>[    5.889019 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[26] = 89 0x59
+<7>[    5.889025 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[27] = 65 0x41
+<7>[    5.889032 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[28] = 89 0x59
+<7>[    5.889038 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[29] = 62 0x3e
+<7>[    5.889044 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[30] = 2 0x2
+<7>[    5.889051 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[31] = 3 0x3
+<7>[    5.889060 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] Reg Offset  = 0x18 index = 3 mtp_write_data = 24
+<7>[    5.890198 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] OLED Mtp Value[32] = 2 0x2
+<7>[    5.890209 / 01-01 00:00:05.870]-CPU:0  [    kworker/0:1:   27] Reg Offset  = 0x20 index = 4 mtp_write_data = 32
+<6>[    5.892377 / 01-01 00:00:05.870]-CPU:0  [      swapper/0:    1] diagchar initialized nowkgsl bus ib [0] = 2456000000
+<7>[    5.904974 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus ib [1] = 3680000000
+<7>[    5.904983 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus ib [2] = 4912000000
+<7>[    5.904990 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus ib [3] = 6400000000
+<7>[    5.904996 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus ib [4] = 7464000000
+<7>[    5.905003 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus index is 4 for pwrlevel 0
+<7>[    5.905009 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus index is 3 for pwrlevel 1
+<7>[    5.905016 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus index is 2 for pwrlevel 2
+<7>[    5.905022 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus index is 1 for pwrlevel 3
+<7>[    5.905029 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl bus index is 0 for pwrlevel 4
+<6>[    5.905991 / 01-01 00:00:05.889]-CPU:0  [      swapper/0:    1] kgsl kgsl-3d0: |kgsl_iommu_init| MMU type set for device is IOMMU
+<7>[    5.919666 / 01-01 00:00:05.899]-CPU:0  [      swapper/0:    1] kgsl: num bus is 5
+<6>[    5.940298 / 01-01 00:00:05.919]-CPU:0  [      swapper/0:    1] brd: module loaded
+<6>[    5.956723 / 01-01 00:00:05.940]-CPU:0  [      swapper/0:    1] loop: module loaded
+<4>[    5.964242 / 01-01 00:00:05.950]-CPU:0  [      swapper/0:    1] QSEECOM: qseecom_probe: bam_pipe_pair=0x2
+<4>[    5.972712 / 01-01 00:00:05.950]-CPU:0  [      swapper/0:    1] QSEECOM: qseecom_probe: qsee-ce-hw-instance=0x0
+<4>[    5.982805 / 01-01 00:00:05.960]-CPU:0  [      swapper/0:    1] QSEECOM: qseecom_probe: hlos-ce-hw-instance=0x1
+<4>[    5.992963 / 01-01 00:00:05.970]-CPU:0  [      swapper/0:    1] QSEECOM: qseecom_probe: secure app region addr=0x7b00000 size=0x500000
+<6>[    6.005956 / 01-01 00:00:05.989]-CPU:0  [      swapper/0:    1] wlan_debug_init(175):[WIFI]
+<6>[    6.013701 / 01-01 00:00:05.989]-CPU:0  [      swapper/0:    1] Loading pn547 driver
+<6>[    6.021380 / 01-01 00:00:05.999]-CPU:0  [      swapper/0:    1] pn547_probe (ven, firm, irq)=(50, 439, 59)
+<6>[    6.031112 / 01-01 00:00:06.010]-CPU:0  [      swapper/0:    1] pn547_probe : requesting IRQ 345
+<6>[    6.039925 / 01-01 00:00:06.020]-CPU:0  [      swapper/0:    1] wifi_log_init(218)
+<4>[    6.047722 / 01-01 00:00:06.030]-CPU:0  [      swapper/0:    1] i2c-core: driver [tabla-i2c-core] using legacy suspend method
+<4>[    6.058423 / 01-01 00:00:06.040]-CPU:0  [      swapper/0:    1] i2c-core: driver [tabla-i2c-core] using legacy resume method
+<4>[    6.070043 / 01-01 00:00:06.050]-CPU:0  [      swapper/0:    1] i2c-core: driver [wcd9xxx-i2c-core] using legacy suspend method
+<4>[    6.081079 / 01-01 00:00:06.060]-CPU:0  [      swapper/0:    1] i2c-core: driver [wcd9xxx-i2c-core] using legacy resume method
+<6>[    6.094578 / 01-01 00:00:06.080]-CPU:0  [      swapper/0:    1] SCSI Media Changer driver v0.25 
+<3>[    6.102861 / 01-01 00:00:06.080]-CPU:0  [      swapper/0:    1] sps: BAM device 0xf9904000 is not registered yet.
+<6>[    6.112604 / 01-01 00:00:06.090]-CPU:0  [      swapper/0:    1] sps:BAM 0xf9904000 is registered.
+<6>[    6.121688 / 01-01 00:00:06.100]-CPU:0  [      swapper/0:    1] sps:BAM 0xf9904000 (va:0xc5ee0000) enabled: ver:0x13, number of pipes:24
+<4>[    6.143729 / 01-01 00:00:06.120]-CPU:0  [      swapper/0:    1] spi_qsd f9964000.spi: using default bus_num -1
+<6>[    6.153278 / 01-01 00:00:06.130]-CPU:0  [      swapper/0:    1] sps:BAM 0xf9944000 (va:0xc5e80000) enabled: ver:0x13, number of pipes:24
+<6>[    6.165742 / 01-01 00:00:06.150]-CPU:0  [      swapper/0:    1] spi_master spi32766: will run message pump with realtime priority
+<6>[    6.186391 / 01-01 00:00:06.170]-CPU:0  [      swapper/0:    1] tun: Universal TUN/TAP device driver, 1.6
+<6>[    6.194942 / 01-01 00:00:06.180]-CPU:0  [      swapper/0:    1] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    6.205867 / 01-01 00:00:06.190]-CPU:0  [      swapper/0:    1] rmnet_init: BAM devices[9]
+<6>[    6.236145 / 01-01 00:00:06.220]-CPU:0  [      swapper/0:    1] PPP generic driver version 2.4.2
+<6>[    6.244445 / 01-01 00:00:06.230]-CPU:0  [      swapper/0:    1] PPP BSD Compression module registered
+<6>[    6.253096 / 01-01 00:00:06.230]-CPU:0  [      swapper/0:    1] PPP Deflate Compression module registered
+<6>[    6.263857 / 01-01 00:00:06.240]-CPU:0  [      swapper/0:    1] PPP MPPE Compression module registered
+<6>[    6.272247 / 01-01 00:00:06.250]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 24
+<6>[    6.281146 / 01-01 00:00:06.260]-CPU:0  [      swapper/0:    1] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+<6>[    6.295234 / 01-01 00:00:06.280]-CPU:0  [      swapper/0:    1] CSLIP: code copyright 1989 Regents of the University of California.
+<6>[    6.307417 / 01-01 00:00:06.290]-CPU:0  [      swapper/0:    1] wcnss_wlan probed in built-in mode
+<6>[    6.318175 / 01-01 00:00:06.300]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver asix
+<6>[    6.327273 / 01-01 00:00:06.310]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver cdc_ether
+<6>[    6.337530 / 01-01 00:00:06.320]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver net1080
+<6>[    6.347675 / 01-01 00:00:06.330]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver cdc_subset
+<6>[    6.358113 / 01-01 00:00:06.340]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver zaurus
+<6>[    6.368384 / 01-01 00:00:06.350]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver cdc_ncm
+<3>[    6.384719 / 01-01 00:00:06.370]-CPU:0  [      swapper/0:    1] dwc3_msm_probe: Update initial ID state value = [1]
+<7>[    6.394850 / 01-01 00:00:06.380]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: usb-online
+<6>[    6.656280 / 01-01 00:00:06.640]-CPU:0  [      swapper/0:    1] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    6.667779 / 01-01 00:00:06.650]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver cdc_acm
+<6>[    6.676934 / 01-01 00:00:06.660]-CPU:0  [      swapper/0:    1] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    6.689430 / 01-01 00:00:06.670]-CPU:0  [      swapper/0:    1] Initializing USB Mass Storage driver...
+<6>[    6.699044 / 01-01 00:00:06.680]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver usb-storage
+<6>[    6.709309 / 01-01 00:00:06.690]-CPU:0  [      swapper/0:    1] USB Mass Storage support registered.
+<6>[    6.718528 / 01-01 00:00:06.700]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-alauda
+<6>[    6.728941 / 01-01 00:00:06.710]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-cypress
+<6>[    6.739458 / 01-01 00:00:06.720]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-datafab
+<6>[    6.749954 / 01-01 00:00:06.730]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums_eneub6250
+<6>[    6.760641 / 01-01 00:00:06.740]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-freecom
+<6>[    6.771133 / 01-01 00:00:06.750]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-isd200
+<6>[    6.781561 / 01-01 00:00:06.760]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-jumpshot
+<6>[    6.792144 / 01-01 00:00:06.770]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-karma
+<6>[    6.802469 / 01-01 00:00:06.780]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-onetouch
+<6>[    6.813057 / 01-01 00:00:06.790]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-sddr09
+<6>[    6.823482 / 01-01 00:00:06.800]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-sddr55
+<6>[    6.833893 / 01-01 00:00:06.810]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver ums-usbat
+<6>[    6.844298 / 01-01 00:00:06.830]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver usb_ehset_test
+<6>[    6.856768 / 01-01 00:00:06.840]-CPU:0  [      swapper/0:    1] mbim_init: initialize 1 instances
+<6>[    6.865113 / 01-01 00:00:06.850]-CPU:0  [      swapper/0:    1] mbim_init: Initialized 1 ports
+<6>[    6.881030 / 01-01 00:00:06.860]-CPU:0  [      swapper/0:    1] rndis_qc_init: initialize rndis QC instance
+<6>[    6.891568 / 01-01 00:00:06.870]-CPU:0  [      swapper/0:    1]  gadget: Mass Storage Function, version: 2009/09/11
+<6>[    6.900984 / 01-01 00:00:06.880]-CPU:0  [      swapper/0:    1]  gadget: Number of LUNs=2
+<6>[    6.909158 / 01-01 00:00:06.890]-CPU:0  [      swapper/0:    1]  lun0: LUN: removable file: (no medium)
+<6>[    6.918515 / 01-01 00:00:06.900]-CPU:0  [      swapper/0:    1]  lun1: LUN: removable read only CD-ROM file: (no medium)
+<3>[    6.930757 / 01-01 00:00:06.910]-CPU:0  [      swapper/0:    1] pantech_obex_setup
+<6>[    6.937588 / 01-01 00:00:06.920]-CPU:0  [      swapper/0:    1]  gadget: android_usb ready
+<6>[    6.947361 / 01-01 00:00:06.930]-CPU:0  [      swapper/0:    1] mousedev: PS/2 mouse device common for all mice
+<6>[    6.957533 / 01-01 00:00:06.940]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver xpad
+<7>[    6.966521 / 01-01 00:00:06.950]-CPU:0  [      swapper/0:    1] +-------------------------------------------+
+<7>[    6.966529 / 01-01 00:00:06.950]-CPU:0  [      swapper/0:    1] |  STMicro FingerTips Probe - Ver: Pan01    |
+<7>[    6.966535 / 01-01 00:00:06.950]-CPU:0  [      swapper/0:    1] +-------------------------------------------+
+<7>[    6.966567 / 01-01 00:00:06.950]-CPU:0  [      swapper/0:    1] [+++ TOUCH] FTS Not support Hover Event 
+<7>[    7.074283 / 01-01 00:00:07.060]-CPU:1  [      swapper/0:    1] [+++ TOUCH] FTS Initial Start..
+<7>[    7.384674 / 01-01 00:00:07.370]-CPU:0  [      swapper/0:    1] [+++ TOUCH] FTS B60007 =  39 80 01 45 
+<7>[    7.395962 / 01-01 00:00:07.380]-CPU:0  [      swapper/0:    1] [+++ TOUCH] [Firmware Version] IC: 0x0045, BIN: 0x0045
+<7>[    7.395970 / 01-01 00:00:07.380]-CPU:0  [      swapper/0:    1] [+++ TOUCH] [Config Version] IC: 0x030D, BIN: 0x030D
+<7>[    7.395978 / 01-01 00:00:07.380]-CPU:0  [      swapper/0:    1] [+++ TOUCH] [Main Version] IC: 0x2404, BIN: 0x2404
+<7>[    7.395985 / 01-01 00:00:07.380]-CPU:0  [      swapper/0:    1] [+++ TOUCH] fts_init: Need not Update. Skip to firmware update.
+<7>[    7.715670 / 01-01 00:00:07.700]-CPU:0  [      swapper/0:    1] [+++ TOUCH] FTS Sense(29) Force(17)
+<7>[    7.716313 / 01-01 00:00:07.700]-CPU:0  [      swapper/0:    1] [+++ TOUCH] FTS ReadStatus(0x84) : 0A 00 00 00
+<7>[    7.716321 / 01-01 00:00:07.700]-CPU:0  [      swapper/0:    1] [+++ TOUCH] FTS Initialised..
+<6>[    7.716898 / 01-01 00:00:07.700]-CPU:0  [      swapper/0:    1] input: stmicro_fts_ts as /devices/f9924000.i2c/i2c-2/2-0049/input/input1
+<6>[    7.729272 / 01-01 00:00:07.710]-CPU:0  [      swapper/0:    1] smart_cover added emergency_notify func with mode : 0
+<7>[    7.739131 / 01-01 00:00:07.719]-CPU:0  [      swapper/0:    1] [+++ TOUCH] touch_io is registered.
+<7>[    7.739384 / 01-01 00:00:07.719]-CPU:0  [      swapper/0:    1] [+++ TOUCH] touch_event is registered.
+<7>[    7.739495 / 01-01 00:00:07.719]-CPU:0  [      swapper/0:    1] [+++ TOUCH] FTS Probe Done without Error!
+<7>[    7.739595 / 01-01 00:00:07.719]-CPU:0  [      swapper/0:    1] [+++ TM] tkey_i2c_init
+<7>[    7.739692 / 01-01 00:00:07.719]-CPU:0  [      swapper/0:    1] [+++ TM] tkey_i2c_probe
+<7>[    7.739699 / 01-01 00:00:07.719]-CPU:0  [      swapper/0:    1] [+++ TM] tkey_probe
+<6>[    7.740269 / 01-01 00:00:07.719]-CPU:0  [      swapper/0:    1] input: cr-tk-300k as /devices/f9966000.i2c/i2c-10/10-0060/input/input2
+<7>[    7.751650 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] init_gpio_cr
+<7>[    7.751674 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] cr_tk_fw_probe
+<7>[    7.752243 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM]     TKey Version(04), INT = 1
+<7>[    7.752251 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] --------------------------------------------------------
+<7>[    7.752257 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM]         TOUCH KEY INFORMATION
+<7>[    7.752263 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] --------------------------------------------------------
+<7>[    7.752270 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] TOUCH INPUT Name = cr-tk-300k
+<7>[    7.752276 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] TOUCH IRQ Mode   = IRQ_MODE_NORMAL
+<7>[    7.752283 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] TOUCH Key/Binary Version = 04 / 04 (1)
+<7>[    7.752289 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] TOUCH KEY MAX = 2
+<7>[    7.752295 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] [+++ TM] --------------------------------------------------------
+<7>[    7.753209 / 01-01 00:00:07.729]-CPU:0  [      swapper/0:    1] Registered led device: pan_tm_led
+<3>[    7.754267 / 01-01 00:00:07.739]-CPU:0  [      swapper/0:    1] fpc1080 spi32766.0: fpc1080_probe
+<7>[    7.762474 / 01-01 00:00:07.739]-CPU:0  [      swapper/0:    1] [FPC1080]FPC1080_PLUG : 0[FPC1080]PROBE : addr_g : f3b579c0, addr : f3b579c0. 
+<7>[    7.762784 / 01-01 00:00:07.739]-CPU:0  [      swapper/0:    1] [FPC1080][FPC1080]gpio_to_irq : success.
+<7>[    7.765674 / 01-01 00:00:07.749]-CPU:0  [      swapper/0:    1] [FPC1080][FPC1080]fpc1080_spi_setup : success.
+<7>[    7.765785 / 01-01 00:00:07.749]-CPU:0  [      swapper/0:    1] [FPC1080][FPC1080] create class: success.
+<6>[    7.766624 / 01-01 00:00:07.749]-CPU:0  [      swapper/0:    1] input: fpc1080 as /devices/virtual/input/input3
+<6>[    7.776804 / 01-01 00:00:07.760]-CPU:0  [      swapper/0:    1] input: fpc1080Mouse as /devices/virtual/input/input4
+<6>[    7.787480 / 01-01 00:00:07.770]-CPU:0  [      swapper/0:    1] input: fpc1080TouchPad as /devices/virtual/input/input5
+<7>[    7.798368 / 01-01 00:00:07.780]-CPU:0  [      swapper/0:    1] [FPC1080]FPC1080_PLUG : 0.
+<7>[    7.798376 / 01-01 00:00:07.780]-CPU:0  [      swapper/0:    1] [FPC1080]PROBE : addr_g : f3b579c0, addr : f3b579c0. 
+<7>[    7.798383 / 01-01 00:00:07.780]-CPU:0  [      swapper/0:    1] [FPC1080]PROBE : addr_g : f3b579c0, addr : f3b579c0. 
+<6>[    7.798999 / 01-01 00:00:07.780]-CPU:0  [      swapper/0:    1] sub_smart_cover1_detection added normal_notify func with mode : 1
+<6>[    7.811639 / 01-01 00:00:07.790]-CPU:0  [      swapper/0:    1] using rtc device, qpnp_rtc, for alarms
+<6>[    7.819807 / 01-01 00:00:07.800]-CPU:0  [      swapper/0:    1] qcom,qpnp-rtc qpnp-rtc-f5686940: rtc core: registered qpnp_rtc as rtc0
+<6>[    7.832493 / 01-01 00:00:07.810]-CPU:0  [      swapper/0:    1] i2c /dev entries driver
+<6>[    7.844631 / 01-01 00:00:07.830]-CPU:0  [      swapper/0:    1] ocmem: Notifier registered for 1
+<7>[    7.852776 / 01-01 00:00:07.830]-CPU:0  [      swapper/0:    1] msm_vidc: 1: Failed to read qcom,load-freq-tbl from device tree
+<7>[    7.852784 / 01-01 00:00:07.830]-CPU:0  [      swapper/0:    1] msm_vidc: 1: no elements in frequency table
+<7>[    7.852791 / 01-01 00:00:07.830]-CPU:0  [      swapper/0:    1] msm_vidc: 1: Failed to read qcom,reg-presets from device tree
+<7>[    7.852854 / 01-01 00:00:07.830]-CPU:0  [      swapper/0:    1] msm_vidc: 1: Failed to read qcom,buffer-type-tz-usage-table from device tree
+<7>[    7.852877 / 01-01 00:00:07.830]-CPU:0  [      swapper/0:    1] msm_vidc: 1: Q6 hfi device probe called
+<7>[    7.853844 / 01-01 00:00:07.830]-CPU:0  [      swapper/0:    1] msm_vidc: 1: debugfs_create_file: fail
+<3>[    7.856878 / 01-01 00:00:07.840]-CPU:0  [      swapper/0:    1] msm_cci_probe: pdev f55c7c80 device id = -1
+<7>[    7.873406 / 01-01 00:00:07.850]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: flash0_trigger
+<7>[    7.873440 / 01-01 00:00:07.850]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: flash1_trigger
+<7>[    7.873471 / 01-01 00:00:07.850]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: torch_trigger
+<7>[    7.874157 / 01-01 00:00:07.860]-CPU:0  [      swapper/0:    1] Registered led device: torch-light
+<3>[    7.875168 / 01-01 00:00:07.860]-CPU:0  [      swapper/0:    1] msm_camera_power_up:531 mux install
+<3>[    7.992100 / 01-01 00:00:07.970]-CPU:0  [      swapper/0:    1] read_eeprom_memory_checksum: AWB(0x7944) checksum success
+<3>[    8.002044 / 01-01 00:00:07.980]-CPU:0  [      swapper/0:    1] read_eeprom_memory_checksum: LSC(0x7946) checksum success
+<3>[    8.012981 / 01-01 00:00:07.990]-CPU:0  [      swapper/0:    1] msm_eeprom_platform_probe line 1311
+<6>[    8.039633 / 01-01 00:00:08.020]-CPU:0  [      swapper/0:    1] imx214_init_module:146
+<6>[    8.145704 / 01-01 00:00:08.130]-CPU:0  [      swapper/0:    1] s5k6b2yx_init_module:117
+<3>[    8.240498 / 01-01 00:00:08.220]-CPU:0  [      swapper/0:    1] __msm_jpeg_init:947] Jpeg Device id 0
+<3>[    8.249333 / 01-01 00:00:08.230]-CPU:0  [      swapper/0:    1] __msm_jpeg_init:947] Jpeg Device id 1
+<3>[    8.258490 / 01-01 00:00:08.240]-CPU:0  [      swapper/0:    1] __msm_jpeg_init:947] Jpeg Device id 2
+<6>[    8.288248 / 01-01 00:00:08.270]-CPU:0  [      swapper/0:    1] lirc_dev: IR Remote Control driver registered, major 234 
+<6>[    8.298362 / 01-01 00:00:08.280]-CPU:0  [      swapper/0:    1] IR NEC protocol handler initialized
+<6>[    8.307384 / 01-01 00:00:08.290]-CPU:0  [      swapper/0:    1] IR RC5(x) protocol handler initialized
+<6>[    8.316671 / 01-01 00:00:08.300]-CPU:0  [      swapper/0:    1] IR RC6 protocol handler initialized
+<6>[    8.325701 / 01-01 00:00:08.310]-CPU:0  [      swapper/0:    1] IR JVC protocol handler initialized
+<6>[    8.334728 / 01-01 00:00:08.320]-CPU:0  [      swapper/0:    1] IR Sony protocol handler initialized
+<6>[    8.343821 / 01-01 00:00:08.320]-CPU:0  [      swapper/0:    1] IR RC5 (streamzap) protocol handler initialized
+<6>[    8.353912 / 01-01 00:00:08.330]-CPU:0  [      swapper/0:    1] IR SANYO protocol handler initialized
+<6>[    8.363111 / 01-01 00:00:08.340]-CPU:0  [      swapper/0:    1] IR MCE Keyboard/mouse protocol handler initialized
+<6>[    8.373501 / 01-01 00:00:08.350]-CPU:0  [      swapper/0:    1] IR LIRC bridge handler initialized
+<6>[    8.382680 / 01-01 00:00:08.360]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver uvcvideo
+<6>[    8.392628 / 01-01 00:00:08.370]-CPU:0  [      swapper/0:    1] USB Video Class driver (1.1.1)
+<7>[    8.402434 / 01-01 00:00:08.380]-CPU:0  [      swapper/0:    1] pt_max17058_battery_probe enter
+<7>[    8.402828 / 01-01 00:00:08.380]-CPU:0  [      swapper/0:    1] ++ pt_bq2419x_charger_probe enter
+<6>[    8.402971 / 01-01 00:00:08.380]-CPU:0  [      swapper/0:    1] spmi qpnp-charger-f5685080: Driver qcom,qpnp-charger requests probe deferral
+<6>[    8.479787 / 01-01 00:00:08.460]-CPU:0  [      swapper/0:    1] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+<6>[    8.492090 / 01-01 00:00:08.470]-CPU:0  [      swapper/0:    1] Bluetooth: HCI UART driver ver 2.2
+<6>[    8.500663 / 01-01 00:00:08.480]-CPU:0  [      swapper/0:    1] Bluetooth: HCIATH3K protocol initialized
+<6>[    8.512153 / 01-01 00:00:08.490]-CPU:0  [      swapper/0:    1] cpuidle: using governor ladder
+<6>[    8.519748 / 01-01 00:00:08.500]-CPU:0  [      swapper/0:    1] cpuidle: using governor menu
+<6>[    8.528296 / 01-01 00:00:08.510]-CPU:0  [      swapper/0:    1] sdhci: Secure Digital Host Controller Interface driver
+<6>[    8.538838 / 01-01 00:00:08.520]-CPU:0  [      swapper/0:    1] sdhci: Copyright(c) Pierre Ossman
+<6>[    8.548187 / 01-01 00:00:08.530]-CPU:0  [      swapper/0:    1] sdhci-pltfm: SDHCI platform and OF driver helper
+<6>[    8.565196 / 01-01 00:00:08.550]-CPU:0  [      swapper/0:    1] mmc0: no vmmc regulator found
+<7>[    8.574031 / 01-01 00:00:08.550]-CPU:0  [      swapper/0:    1] Registered led device: mmc0::
+<7>[    8.574370 / 01-01 00:00:08.560]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: mmc0
+<6>[    8.575690 / 01-01 00:00:08.560]-CPU:0  [      swapper/0:    1] mmc0: SDHCI controller on msm_sdcc.1 [msm_sdcc.1] using ADMA
+<6>[    8.593639 / 01-01 00:00:08.570]-CPU:0  [      swapper/0:    1] mmc1: no vmmc regulator found
+<7>[    8.602493 / 01-01 00:00:08.580]-CPU:0  [      swapper/0:    1] Registered led device: mmc1::
+<7>[    8.602794 / 01-01 00:00:08.580]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: mmc1
+<6>[    8.604093 / 01-01 00:00:08.580]-CPU:0  [      swapper/0:    1] mmc1: SDHCI controller on msm_sdcc.2 [msm_sdcc.2] using ADMA
+<7>[    8.614784 / 01-01 00:00:08.600]-CPU:0  [      swapper/0:    1] [+++ LED] ============================================
+<7>[    8.614793 / 01-01 00:00:08.600]-CPU:0  [      swapper/0:    1] [+++ LED]    PM8941 LED Driver - Boot Mode: Online
+<7>[    8.614800 / 01-01 00:00:08.600]-CPU:0  [      swapper/0:    1] [+++ LED] ============================================
+<6>[    8.614913 / 01-01 00:00:08.600]-CPU:0  [      swapper/0:    1] qpnp_lpg_calc_period: LPG channel '6' pwm size is forced to=9
+<7>[    8.628249 / 01-01 00:00:08.610]-CPU:0  [      swapper/0:    1] Registered led device: led:rgb_red
+<6>[    8.630562 / 01-01 00:00:08.610]-CPU:0  [      swapper/0:    1] qpnp_lpg_calc_period: LPG channel '5' pwm size is forced to=9
+<7>[    8.641473 / 01-01 00:00:08.620]-CPU:0  [      swapper/0:    1] Registered led device: led:rgb_green
+<6>[    8.641702 / 01-01 00:00:08.620]-CPU:0  [      swapper/0:    1] qpnp_lpg_calc_period: LPG channel '4' pwm size is forced to=9
+<7>[    8.654772 / 01-01 00:00:08.640]-CPU:0  [      swapper/0:    1] Registered led device: led:rgb_blue
+<7>[    8.656950 / 01-01 00:00:08.640]-CPU:0  [      swapper/0:    1] [+++ LED] Enable Rainbow Effect for Boot up.
+<7>[    8.659441 / 01-01 00:00:08.640]-CPU:0  [      swapper/0:    1] [+++ LED] ============================================
+<7>[    8.659448 / 01-01 00:00:08.640]-CPU:0  [      swapper/0:    1] [+++ LED]    PM8941 LED Driver - Boot Mode: Online
+<7>[    8.659455 / 01-01 00:00:08.640]-CPU:0  [      swapper/0:    1] [+++ LED] ============================================
+<3>[    8.659539 / 01-01 00:00:08.640]-CPU:0  [      swapper/0:    1] qcom,leds-qpnp leds-qpnp-f5660b00: Regulator get failed(-517)
+<7>[    8.671840 / 01-01 00:00:08.650]-CPU:0  [      swapper/0:    1] [+++ LED] Unable to read flash config data
+<6>[    8.671897 / 01-01 00:00:08.650]-CPU:0  [      swapper/0:    1] spmi leds-qpnp-f5660b00: Driver qcom,leds-qpnp requests probe deferral
+<7>[    8.685120 / 01-01 00:00:08.670]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: backlight
+<7>[    8.685134 / 01-01 00:00:08.670]-CPU:0  [      swapper/0:    1] [+++ LED trigger] Registered trigger name: default-on
+<4>[    8.689953 / 01-01 00:00:08.670]-CPU:0  [      swapper/0:    1] QCE50: __qce_get_device_tree_data: bam_pipe_pair=0x1
+<4>[    8.701362 / 01-01 00:00:08.680]-CPU:0  [      swapper/0:    1] QCE50: __qce_get_device_tree_data: ce_phy_reg_base=0xfd440000  
+<4>[    8.713835 / 01-01 00:00:08.690]-CPU:0  [      swapper/0:    1] QCE50: __qce_get_device_tree_data: ce_virt_reg_base=0xc5f40000
+<4>[    8.724392 / 01-01 00:00:08.710]-CPU:0  [      swapper/0:    1] QCE50: __qce_get_device_tree_data: ce_bam_phy_reg_base=0xfd444000  
+<4>[    8.736023 / 01-01 00:00:08.720]-CPU:0  [      swapper/0:    1] QCE50: __qce_get_device_tree_data: CRYPTO BAM IRQ = 268.
+<6>[    8.747390 / 01-01 00:00:08.730]-CPU:0  [      swapper/0:    1] qce qcedev.0: Qualcomm Crypto 5.1.0 device found @0xfd440000
+<6>[    8.758232 / 01-01 00:00:08.740]-CPU:0  [      swapper/0:    1] qce qcedev.0: IO base, CE = 0xc5f40000
+<6>[    8.758237 / 01-01 00:00:08.740]-CPU:0  [      swapper/0:    1] , Consumer (IN) PIPE 2,    Producer (OUT) PIPE 3
+<6>[    8.758241 / 01-01 00:00:08.740]-CPU:0  [      swapper/0:    1] IO base BAM = 0x0
+<6>[    8.758244 / 01-01 00:00:08.740]-CPU:0  [      swapper/0:    1] BAM IRQ 268
+<6>[    8.792774 / 01-01 00:00:08.770]-CPU:1  [      swapper/0:    1] sps:BAM 0xfd444000 is registered.
+<6>[    8.801084 / 01-01 00:00:08.780]-CPU:1  [      swapper/0:    1] sps:BAM 0xfd444000 (va:0xc5e70000) enabled: ver:0x20, number of pipes:8
+<6>[    8.805666 / 01-01 00:00:08.790]-CPU:0  [    kworker/u:2:   39] mmc0: BKOPS_EN bit = 0
+<6>[    8.816966 / 01-01 00:00:08.800]-CPU:0  [    kworker/u:2:   39] mmc0: new HS200 MMC card at address 0001
+<6>[    8.830483 / 01-01 00:00:08.810]-CPU:0  [    kworker/u:2:   39] mmcblk0: mmc0:0001 MAG2GC 14.5 GiB 
+<6>[    8.839764 / 01-01 00:00:08.820]-CPU:1  [      swapper/0:    1] QCE50: qce_sps_init:  Qualcomm MSM CE-BAM at 0x00000000fd444000 irq 268
+<6>[    8.851663 / 01-01 00:00:08.830]-CPU:0  [    kworker/u:2:   39] mmcblk0rpmb: mmc0:0001 MAG2GC partition 3 4.00 MiB
+<6>[    8.854818 / 01-01 00:00:08.840]-CPU:1  [      swapper/0:    1] usbcore: registered new interface driver usbhid
+<6>[    8.854825 / 01-01 00:00:08.840]-CPU:1  [      swapper/0:    1] usbhid: USB HID core driver
+<6>[    8.882243 / 01-01 00:00:08.860]-CPU:1  [      swapper/0:    1] ashmem: initialized
+<6>[    8.883739 / 01-01 00:00:08.860]-CPU:0  [    kworker/u:2:   39]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29
+<6>[    8.905221 / 01-01 00:00:08.890]-CPU:1  [      swapper/0:    1] logger: created 256K log 'log_main'
+<6>[    8.914252 / 01-01 00:00:08.900]-CPU:1  [      swapper/0:    1] logger: created 256K log 'log_events'
+<6>[    8.923408 / 01-01 00:00:08.900]-CPU:1  [      swapper/0:    1] logger: created 256K log 'log_radio'
+<6>[    8.932694 / 01-01 00:00:08.910]-CPU:1  [      swapper/0:    1] logger: created 256K log 'log_system'
+<6>[    8.941937 / 01-01 00:00:08.920]-CPU:1  [      swapper/0:    1] logger: created 128K log 'log_wifi'
+<6>[    8.951803 / 01-01 00:00:08.930]-CPU:1  [      swapper/0:    1] sps:BAM 0xf9304000 is registered.
+<6>[    8.959529 / 01-01 00:00:08.940]-CPU:1  [      swapper/0:    1] sps:BAM 0xf9a44000 is registered.
+<3>[    8.968351 / 01-01 00:00:08.950]-CPU:1  [      swapper/0:    1] usb_bam_ipa_create_resources: Failed to create USB_PROD resource
+<6>[    8.980485 / 01-01 00:00:08.960]-CPU:1  [      swapper/0:    1] PMIC@SID0 Power-on reason: Triggered from KPD (power key press) and 'cold' boot
+<6>[    8.993487 / 01-01 00:00:08.970]-CPU:1  [      swapper/0:    1] input: qpnp_pon as /devices/virtual/input/input6
+<6>[    9.006500 / 01-01 00:00:08.990]-CPU:1  [      swapper/0:    1] qpnp_coincell_charger_show_state: enabled=Y, voltage=3000 mV, resistance=2100 ohm
+<6>[    9.018871 / 01-01 00:00:09.000]-CPU:1  [      swapper/0:    1] PMIC@SID4: PM8841 v2.1 options: 0, 0, 2, 2
+<6>[    9.028367 / 01-01 00:00:09.010]-CPU:0  [      swapper/0:    1] PMIC@SID0: PM8941 v3.1 options: 3, 0, 0, 0
+<6>[    9.039092 / 01-01 00:00:09.020]-CPU:0  [      swapper/0:    1] coresight-fuse fc4be024.fuse: Fuse initialized
+<6>[    9.049903 / 01-01 00:00:09.030]-CPU:0  [      swapper/0:    1] coresight-cti fc308000.cti: CTI initialized
+<6>[    9.059835 / 01-01 00:00:09.040]-CPU:0  [      swapper/0:    1] coresight-cti fc309000.cti: CTI initialized
+<6>[    9.069844 / 01-01 00:00:09.050]-CPU:0  [      swapper/0:    1] coresight-cti fc30a000.cti: CTI initialized
+<6>[    9.079109 / 01-01 00:00:09.060]-CPU:0  [      swapper/0:    1] coresight-cti fc30b000.cti: CTI initialized
+<6>[    9.088737 / 01-01 00:00:09.070]-CPU:0  [      swapper/0:    1] coresight-cti fc30c000.cti: CTI initialized
+<6>[    9.098453 / 01-01 00:00:09.080]-CPU:0  [      swapper/0:    1] coresight-cti fc30d000.cti: CTI initialized
+<6>[    9.108171 / 01-01 00:00:09.090]-CPU:0  [      swapper/0:    1] coresight-cti fc30e000.cti: CTI initialized
+<6>[    9.117879 / 01-01 00:00:09.100]-CPU:0  [      swapper/0:    1] coresight-cti fc30f000.cti: CTI initialized
+<6>[    9.127692 / 01-01 00:00:09.110]-CPU:0  [      swapper/0:    1] coresight-cti fc310000.cti: CTI initialized
+<6>[    9.137371 / 01-01 00:00:09.120]-CPU:0  [      swapper/0:    1] coresight-cti fc340000.cti: CTI initialized
+<6>[    9.147146 / 01-01 00:00:09.130]-CPU:0  [      swapper/0:    1] coresight-cti fc341000.cti: CTI initialized
+<6>[    9.156825 / 01-01 00:00:09.140]-CPU:0  [      swapper/0:    1] coresight-cti fc342000.cti: CTI initialized
+<6>[    9.166927 / 01-01 00:00:09.150]-CPU:0  [      swapper/0:    1] coresight-cti fc343000.cti: CTI initialized
+<6>[    9.176241 / 01-01 00:00:09.160]-CPU:0  [      swapper/0:    1] coresight-cti fc344000.cti: CTI initialized
+<6>[    9.185966 / 01-01 00:00:09.170]-CPU:0  [      swapper/0:    1] coresight-cti fc348000.cti: CTI initialized
+<6>[    9.195682 / 01-01 00:00:09.180]-CPU:0  [      swapper/0:    1] coresight-cti fc34d000.cti: CTI initialized
+<6>[    9.205402 / 01-01 00:00:09.190]-CPU:0  [      swapper/0:    1] coresight-cti fc350000.cti: CTI initialized
+<6>[    9.215120 / 01-01 00:00:09.200]-CPU:0  [      swapper/0:    1] coresight-cti fc354000.cti: CTI initialized
+<6>[    9.224830 / 01-01 00:00:09.210]-CPU:0  [      swapper/0:    1] coresight-cti fc358000.cti: CTI initialized
+<6>[    9.234892 / 01-01 00:00:09.220]-CPU:0  [      swapper/0:    1] coresight-csr fc302000.csr: CSR initialized
+<6>[    9.247070 / 01-01 00:00:09.230]-CPU:0  [      swapper/0:    1] coresight-tmc fc322000.tmc: Byte Counter feature enabled
+<6>[    9.257009 / 01-01 00:00:09.240]-CPU:0  [      swapper/0:    1] sps:BAM 0xfc37c000 is registered.
+<6>[    9.266254 / 01-01 00:00:09.250]-CPU:0  [      swapper/0:    1] coresight-tmc fc322000.tmc: TMC initialized
+<6>[    9.276528 / 01-01 00:00:09.260]-CPU:0  [      swapper/0:    1] coresight-tmc fc307000.tmc: TMC initialized
+<3>[    9.287069 / 01-01 00:00:09.270]-CPU:0  [      swapper/0:    1] coresight-tpiu fc318000.tpiu: seta gpios not specified
+<3>[    9.296748 / 01-01 00:00:09.280]-CPU:0  [      swapper/0:    1] coresight-tpiu fc318000.tpiu: setb gpios not specified
+<6>[    9.307727 / 01-01 00:00:09.290]-CPU:0  [      swapper/0:    1] coresight-tpiu fc318000.tpiu: TPIU initialized
+<6>[    9.318262 / 01-01 00:00:09.300]-CPU:0  [      swapper/0:    1] coresight-funnel fc31b000.funnel: FUNNEL initialized
+<6>[    9.328352 / 01-01 00:00:09.310]-CPU:0  [      swapper/0:    1] coresight-funnel fc319000.funnel: FUNNEL initialized
+<6>[    9.338844 / 01-01 00:00:09.320]-CPU:0  [      swapper/0:    1] coresight-funnel fc31a000.funnel: FUNNEL initialized
+<6>[    9.349341 / 01-01 00:00:09.330]-CPU:0  [      swapper/0:    1] coresight-funnel fc345000.funnel: FUNNEL initialized
+<6>[    9.359845 / 01-01 00:00:09.340]-CPU:0  [      swapper/0:    1] coresight-funnel fc364000.funnel: FUNNEL initialized
+<6>[    9.370746 / 01-01 00:00:09.350]-CPU:0  [      swapper/0:    1] coresight-replicator fc31c000.replicator: REPLICATOR initialized
+<6>[    9.382709 / 01-01 00:00:09.360]-CPU:0  [      swapper/0:    1] coresight-stm fc321000.stm: STM initialized
+<6>[    9.392266 / 01-01 00:00:09.370]-CPU:0  [      swapper/0:    1] coresight-hwevent fdf30018.hwevent: Hardware Event driver initialized
+<6>[    9.405113 / 01-01 00:00:09.390]-CPU:0  [      swapper/0:    1] coresight-etm fc33c000.etm: ETM initialized
+<6>[    9.413816 / 01-01 00:00:09.390]-CPU:0  [      swapper/0:    1] coresight-etm fc33c000.etm: PC save enabled
+<6>[    9.424420 / 01-01 00:00:09.410]-CPU:0  [      swapper/0:    1] coresight-etm fc33d000.etm: ETM initialized
+<6>[    9.433263 / 01-01 00:00:09.410]-CPU:0  [      swapper/0:    1] coresight-etm fc33d000.etm: PC save enabled
+<6>[    9.443915 / 01-01 00:00:09.420]-CPU:0  [      swapper/0:    1] coresight-etm fc33e000.etm: ETM initialized
+<6>[    9.452733 / 01-01 00:00:09.430]-CPU:0  [      swapper/0:    1] coresight-etm fc33e000.etm: PC save enabled
+<6>[    9.463298 / 01-01 00:00:09.440]-CPU:0  [      swapper/0:    1] coresight-etm fc33f000.etm: ETM initialized
+<6>[    9.472175 / 01-01 00:00:09.450]-CPU:0  [      swapper/0:    1] coresight-etm fc33f000.etm: PC save enabled
+<6>[    9.482710 / 01-01 00:00:09.460]-CPU:0  [      swapper/0:    1] coresight-audio-etm audio_etm0.0: Audio ETM initialized
+<6>[    9.493421 / 01-01 00:00:09.470]-CPU:0  [      swapper/0:    1] coresight-modem-etm modem_etm0.1: Modem ETM initialized
+<6>[    9.504206 / 01-01 00:00:09.490]-CPU:0  [      swapper/0:    1] coresight-wcn-etm wcn_etm0.2: Wireless ETM initialized
+<6>[    9.514858 / 01-01 00:00:09.500]-CPU:0  [      swapper/0:    1] coresight-rpm-etm rpm_etm0.3: RPM ETM initialized
+<6>[    9.525246 / 01-01 00:00:09.510]-CPU:0  [      swapper/0:    1] control_trace: Module Registered
+<1>[    9.533079 / 01-01 00:00:09.510]-CPU:0  [      swapper/0:    1] [tdmb_init]
+<1>[    9.540067 / 01-01 00:00:09.520]-CPU:0  [      swapper/0:    1] [tdmb_init] registered with DeviceNum [0x e800000] Major [232], Minor [0]
+<1>[    9.552725 / 01-01 00:00:09.530]-CPU:0  [      swapper/0:    1] [tdmb_bb_func_tbl_init]~!!!
+<1>[    9.560707 / 01-01 00:00:09.540]-CPU:0  [      swapper/0:    1] TDMB BB ---> [FC8080]
+<1>[    9.568345 / 01-01 00:00:09.550]-CPU:0  [      swapper/0:    1] [dmb_gpio_init] dmb_gpio_init!!!
+<1>[    9.577288 / 01-01 00:00:09.560]-CPU:0  [      swapper/0:    1] [dmb_gpio_init] end cnt[2]!!!
+<1>[    9.585792 / 01-01 00:00:09.570]-CPU:0  [      swapper/0:    1] [dmb_spi_init] 
+<1>[    9.593161 / 01-01 00:00:09.570]-CPU:0  [      swapper/0:    1] [dmb_spi_probe] 
+<1>[    9.600528 / 01-01 00:00:09.580]-CPU:0  [      swapper/0:    1] DMB SPI CS[2] MISO[1] MOSI[0] CLK[3]  irq[92]
+<1>[    9.610358 / 01-01 00:00:09.590]-CPU:0  [      swapper/0:    1]         mode[0]  ph[0] pol[0] cs high[0]
+<1>[    9.619819 / 01-01 00:00:09.600]-CPU:0  [      swapper/0:    1] [dmb_spi_probe] SPI  Max speed [10800000] CS[0]  Mode[0] 
+<1>[    9.630805 / 01-01 00:00:09.610]-CPU:0  [      swapper/0:    1] dmb_spi_probe End !!
+<6>[    9.639634 / 01-01 00:00:09.620]-CPU:0  [      swapper/0:    1] usbcore: registered new interface driver snd-usb-audio
+<6>[    9.667514 / 01-01 00:00:09.650]-CPU:0  [      swapper/0:    1] msm-compr-dsp msm-compr-dsp: msm_compr_probe: dev name msm-compr-dsp
+<6>[    9.679151 / 01-01 00:00:09.660]-CPU:0  [      swapper/0:    1] msm-pcm-lpa msm-pcm-lpa: msm_pcm_probe: dev name msm-pcm-lpa
+<6>[    9.690626 / 01-01 00:00:09.670]-CPU:0  [      swapper/0:    1] platform qcom,msm-voip-dsp.50: Driver msm-voip-dsp requests probe deferral
+<6>[    9.702516 / 01-01 00:00:09.680]-CPU:0  [      swapper/0:    1] platform qcom,msm-pcm-voice.51: Driver msm-pcm-voice requests probe deferral
+<6>[    9.718472 / 01-01 00:00:09.700]-CPU:0  [      swapper/0:    1] ocmem: Notifier registered for 5
+<6>[    9.727357 / 01-01 00:00:09.710]-CPU:0  [      swapper/0:    1] msm8974-asoc-taiko fe02c000.sound: msm8974_asoc_machine_probe(): No hdmi audio support
+<6>[    9.740186 / 01-01 00:00:09.720]-CPU:0  [      swapper/0:    1] platform fe02c000.sound: Driver msm8974-asoc-taiko requests probe deferral
+<6>[    9.754764 / 01-01 00:00:09.740]-CPU:0  [      swapper/0:    1] oprofile: using arm/armv7-krait
+<6>[    9.762993 / 01-01 00:00:09.740]-CPU:0  [      swapper/0:    1] u32 classifier
+<6>[    9.770079 / 01-01 00:00:09.750]-CPU:0  [      swapper/0:    1]     Actions configured
+<6>[    9.777549 / 01-01 00:00:09.760]-CPU:0  [      swapper/0:    1] Netfilter messages via NETLINK v0.30.
+<6>[    9.786948 / 01-01 00:00:09.770]-CPU:0  [      swapper/0:    1] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+<6>[    9.798954 / 01-01 00:00:09.780]-CPU:0  [      swapper/0:    1] ctnetlink v0.93: registering with nfnetlink.
+<6>[    9.808198 / 01-01 00:00:09.790]-CPU:0  [      swapper/0:    1] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    9.819223 / 01-01 00:00:09.800]-CPU:0  [      swapper/0:    1] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    9.830537 / 01-01 00:00:09.810]-CPU:0  [      swapper/0:    1] xt_time: kernel timezone is -0000
+<6>[    9.839096 / 01-01 00:00:09.820]-CPU:0  [      swapper/0:    1] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    9.849058 / 01-01 00:00:09.830]-CPU:0  [      swapper/0:    1] arp_tables: (C) 2002 David S. Miller
+<6>[    9.857480 / 01-01 00:00:09.840]-CPU:0  [      swapper/0:    1] TCP: cubic registered
+<6>[    9.865138 / 01-01 00:00:09.850]-CPU:0  [      swapper/0:    1] Initializing XFRM netlink socket
+<6>[    9.876679 / 01-01 00:00:09.860]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 10
+<7>[    9.892578 / 01-01 00:00:09.870]-CPU:0 I[      swapper/0:    1] now = 4294938283, schedule = 4294950300, rounded schedule = 4294950400 => 4294950300
+<6>[    9.893482 / 01-01 00:00:09.870]-CPU:0  [      swapper/0:    1] Mobile IPv6
+<6>[    9.899515 / 01-01 00:00:09.880]-CPU:0  [      swapper/0:    1] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    9.909803 / 01-01 00:00:09.890]-CPU:0  [      swapper/0:    1] IPv6 over IPv4 tunneling driver
+<6>[    9.919641 / 01-01 00:00:09.900]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 17
+<6>[    9.927680 / 01-01 00:00:09.910]-CPU:0  [      swapper/0:    1] NET: Registered protocol family 15
+<5>[    9.936978 / 01-01 00:00:09.920]-CPU:0  [      swapper/0:    1] Bridge firewalling registered
+<6>[    9.945041 / 01-01 00:00:09.930]-CPU:0  [      swapper/0:    1] Ebtables v2.0 registered
+<6>[    9.953432 / 01-01 00:00:09.930]-CPU:0  [      swapper/0:    1] Bluetooth: RFCOMM TTY layer initialized
+<6>[    9.962513 / 01-01 00:00:09.940]-CPU:0  [      swapper/0:    1] Bluetooth: RFCOMM socket layer initialized
+<6>[    9.972108 / 01-01 00:00:09.950]-CPU:0  [      swapper/0:    1] Bluetooth: RFCOMM ver 1.11
+<6>[    9.980354 / 01-01 00:00:09.960]-CPU:0  [      swapper/0:    1] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    9.990162 / 01-01 00:00:09.970]-CPU:0  [      swapper/0:    1] Bluetooth: BNEP filters: protocol multicast
+<6>[    9.999887 / 01-01 00:00:09.980]-CPU:0  [      swapper/0:    1] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[   10.010969 / 01-01 00:00:09.990]-CPU:0  [      swapper/0:    1] L2TP core driver, V2.0
+<6>[   10.018254 / 01-01 00:00:10.000]-CPU:0  [      swapper/0:    1] PPPoL2TP kernel driver, V2.0
+<6>[   10.026622 / 01-01 00:00:10.010]-CPU:0  [      swapper/0:    1] L2TP IP encapsulation support (L2TPv3)
+<6>[   10.036323 / 01-01 00:00:10.020]-CPU:0  [      swapper/0:    1] L2TP netlink interface
+<6>[   10.043859 / 01-01 00:00:10.020]-CPU:0  [      swapper/0:    1] L2TP ethernet pseudowire support (L2TPv3)
+<6>[   10.053546 / 01-01 00:00:10.030]-CPU:0  [      swapper/0:    1] VFP support v0.3: implementor 51 architecture 64 part 6f variant 2 rev 1
+<5>[   10.065655 / 01-01 00:00:10.050]-CPU:0  [      swapper/0:    1] Registering SWP/SWPB emulation handler
+<6>[   10.100190 / 01-01 00:00:10.080]-CPU:0  [      swapper/0:    1] gdsc_oxili_gx: disabling
+<6>[   10.107296 / 01-01 00:00:10.090]-CPU:0  [      swapper/0:    1] gdsc_venus: disabling
+<6>[   10.115807 / 01-01 00:00:10.100]-CPU:1  [    kworker/u:2:   39] msm8974-asoc-taiko fe02c000.sound: msm8974_asoc_machine_probe(): No hdmi audio support
+<6>[   10.128954 / 01-01 00:00:10.110]-CPU:1  [    kworker/u:2:   39] platform fe02c000.sound: Driver msm8974-asoc-taiko requests probe deferral
+<7>[   10.141933 / 01-01 00:00:10.120]-CPU:0  [      swapper/0:    1] gpio_set_debounce: gpio-410 status -22
+<7>[   10.142467 / 01-01 00:00:10.120]-CPU:0  [      swapper/0:    1] gpio_set_debounce: gpio-411 status -22
+<7>[   10.142484 / 01-01 00:00:10.120]-CPU:1  [    kworker/u:2:   39] [+++ LED] ============================================
+<7>[   10.142493 / 01-01 00:00:10.120]-CPU:1  [    kworker/u:2:   39] [+++ LED]    PM8941 LED Driver - Boot Mode: Online
+<7>[   10.142500 / 01-01 00:00:10.120]-CPU:1  [    kworker/u:2:   39] [+++ LED] ============================================
+<3>[   10.142585 / 01-01 00:00:10.120]-CPU:1  [    kworker/u:2:   39] qcom,leds-qpnp leds-qpnp-f5660b00: Regulator get failed(-517)
+<7>[   10.142862 / 01-01 00:00:10.120]-CPU:0  [      swapper/0:    1] gpio_set_debounce: gpio-412 status -22
+<7>[   10.143235 / 01-01 00:00:10.120]-CPU:0  [      swapper/0:    1] gpio_set_debounce: gpio-409 status -22
+<7>[   10.143596 / 01-01 00:00:10.120]-CPU:0  [      swapper/0:    1] gpio_set_debounce: gpio-413 status -22
+<7>[   10.143957 / 01-01 00:00:10.120]-CPU:0  [      swapper/0:    1] gpio_set_debounce: gpio-414 status -22
+<6>[   10.144966 / 01-01 00:00:10.120]-CPU:0  [      swapper/0:    1] input: gpio-keys as /devices/gpio_keys.83/input/input7
+<6>[   10.163559 / 01-01 02:21:27.500]-CPU:0  [      swapper/0:    1] qcom,qpnp-rtc qpnp-rtc-f5686940: setting system clock to 1970-01-01 02:21:27 UTC (8487)
+<7>[   10.163601 / 01-01 02:21:27.500]-CPU:1  [    kworker/u:2:   39] [+++ LED] Unable to read flash config data
+<6>[   10.163656 / 01-01 02:21:27.500]-CPU:1  [    kworker/u:2:   39] spmi leds-qpnp-f5660b00: Driver qcom,leds-qpnp requests probe deferral
+<7>[   10.163730 / 01-01 02:21:27.500]-CPU:1  [    kworker/u:2:   39] ++ pt_bq2419x_charger_probe enter
+<6>[   10.164380 / 01-01 02:21:27.510]-CPU:1  [    kworker/u:2:   39] 8941_smbb_boost: 5000 mV 
+<6>[   10.198564 / 01-01 02:21:27.550]-CPU:1  [      swapper/0:    1] clock_late_init: Removing enables held for handed-off clocks
+<7>[   10.203881 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] auto pw on : 0, dummy batt : 0
+<7>[   10.205190 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] [+++ LED trigger] Registered trigger name: battery-charging-or-full
+<7>[   10.205215 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] [+++ LED trigger] Registered trigger name: battery-charging
+<7>[   10.205238 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] [+++ LED trigger] Registered trigger name: battery-full
+<7>[   10.205260 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] [+++ LED trigger] Registered trigger name: battery-charging-blink-full-solid
+<4>[   10.206135 / 01-01 02:21:27.550]-CPU:0 I[    kworker/u:2:   39] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<3>[   10.206462 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] dwc3_msm_power_set_property_usb:USB VBUS state from PMIC [0]
+<3>[   10.206533 / 01-01 02:21:27.550]-CPU:0  [    kworker/0:2:  141] dwc3_connect_work: send uevent USB_CABLE=DISCONNECT
+<7>[   10.206570 / 01-01 02:21:27.550]-CPU:0  [    kworker/0:2:  141] IN Current 500mA -> 500mA[2]
+<6>[   10.208164 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] input: bms_app as /devices/virtual/input/input8
+<6>[   10.209325 / 01-01 02:21:27.550]-CPU:0  [    kworker/u:2:   39] ethernet_phy: 
+<7>[   10.212010 / 01-01 02:21:27.550]-CPU:0  [    kworker/0:3:  164] [SOC:64, VCELL:3766250, TEMP:345, chg state:discharging, pg:disconnected, vin:not powered, REG08:0x0]
+<7>[   10.215849 / 01-01 02:21:27.560]-CPU:0  [    kworker/0:2:  141] vbus:0, online:0, current:0, type:4, scope:2
+<3>[   10.258852 / 01-01 02:21:27.610]-CPU:0  [    kworker/u:2:   39] qcom,qpnp-bsi qpnp-bsi-f5684840: qpnp_bsi_init_irqs: request for bsi-batt-present irq 301 failed, rc=-16
+<3>[   10.273844 / 01-01 02:21:27.620]-CPU:0  [    kworker/u:2:   39] qcom,qpnp-bsi qpnp-bsi-f5684840: qpnp_bsi_probe: IRQ initialization failed, rc=-16
+<4>[   10.287090 / 01-01 02:21:27.640]-CPU:0  [    kworker/u:2:   39] qcom,qpnp-bsi: probe of qpnp-bsi-f5684840 failed with error -16
+<6>[   10.299085 / 01-01 02:21:27.650]-CPU:0  [    kworker/u:2:   39] 8941_mvs1: 
+<3>[   10.305380 / 01-01 02:21:27.650]-CPU:0  [    kworker/u:2:   39] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   10.318080 / 01-01 02:21:27.670]-CPU:0  [    kworker/u:2:   39] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   10.331104 / 01-01 02:21:27.680]-CPU:0  [    kworker/u:2:   39] msm8974-asoc-taiko fe02c000.sound: msm8974_asoc_machine_probe(): No hdmi audio support
+<6>[   10.344701 / 01-01 02:21:27.690]-CPU:0  [    kworker/u:2:   39] platform fe02c000.sound: Driver msm8974-asoc-taiko requests probe deferral
+<7>[   10.356586 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] [+++ LED] ============================================
+<7>[   10.356711 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] [+++ LED]    PM8941 LED Driver - Boot Mode: Online
+<7>[   10.356719 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] [+++ LED] ============================================
+<6>[   10.358030 / 01-01 02:21:27.710]-CPU:1  [      swapper/0:    1] ALSA device list:
+<7>[   10.358321 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] Registered led device: led:flash_0
+<7>[   10.359046 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] Registered led device: led:flash_1
+<7>[   10.359669 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] Registered led device: led:flash_torch
+<6>[   10.360041 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] msm8974-asoc-taiko fe02c000.sound: msm8974_asoc_machine_probe(): No hdmi audio support
+<6>[   10.360437 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] platform fe02c000.sound: Driver msm8974-asoc-taiko requests probe deferral
+<6>[   10.361058 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] 8941_mvs1: 
+<3>[   10.361111 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   10.361507 / 01-01 02:21:27.710]-CPU:0  [    kworker/u:2:   39] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   10.379489 / 01-01 02:21:27.720]-CPU:0  [    kworker/0:1:   27] msm-dwc3 msm_dwc3: DWC3 in low power mode
+<6>[   10.432132 / 01-01 02:21:27.779]-CPU:1  [      swapper/0:    1]   No soundcards found.
+<6>[   10.440686 / 01-01 02:21:27.789]-CPU:1  [      swapper/0:    1] Freeing init memory: 88K
+<7>[   10.498596 / 01-01 02:21:27.840]-CPU:2  [           init:    1] SELinux: 512 avtab hash slots, 1322 rules.
+<7>[   10.509215 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux: 512 avtab hash slots, 1322 rules.
+<7>[   10.509322 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux:  1 users, 2 roles, 288 types, 1 bools, 1 sens, 1024 cats
+<7>[   10.509334 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux:  84 classes, 1322 rules
+<7>[   10.513906 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux:  Completing initialization.
+<7>[   10.513914 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux:  Setting up existing superblocks.
+<7>[   10.513944 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<7>[   10.513975 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+<7>[   10.514114 / 01-01 02:21:27.850]-CPU:2  [           init:    1] SELinux: initialized (dev bdev, type bdev), not configured for labeling
+<7>[   10.514162 / 01-01 02:21:27.860]-CPU:2  [           init:    1] SELinux: initialized (dev proc, type proc), uses genfs_contexts
+<7>[   10.514204 / 01-01 02:21:27.860]-CPU:2  [           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[   10.514236 / 01-01 02:21:27.860]-CPU:2  [           init:    1] SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+<7>[   10.526402 / 01-01 02:21:27.870]-CPU:2  [           init:    1] SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+<7>[   10.526430 / 01-01 02:21:27.870]-CPU:2  [           init:    1] SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+<7>[   10.526447 / 01-01 02:21:27.870]-CPU:2  [           init:    1] SELinux: initialized (dev anon_inodefs, type anon_inodefs), not configured for labeling
+<7>[   10.526473 / 01-01 02:21:27.870]-CPU:2  [           init:    1] SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+<7>[   10.526507 / 01-01 02:21:27.870]-CPU:2  [           init:    1] SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+<7>[   10.526625 / 01-01 02:21:27.870]-CPU:2  [           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[   10.526663 / 01-01 02:21:27.870]-CPU:2  [           init:    1] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<7>[   10.587474 / 01-01 02:21:27.930]-CPU:2  [           init:    1] SELinux: Loaded policy from /sepolicy
+<4>[   18.113010 / 01-01 02:21:35.449]-CPU:2  [           init:    1] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<3>[   18.129678 / 01-01 02:21:35.469]-CPU:0  [        ueventd:  183] init: invalid uid 'fm_radio'
+<3>[   19.255787 / 01-01 02:21:36.599]-CPU:2  [           init:    1] init: cannot open '/initlogo.rle'
+<7>[   19.265597 / 01-01 02:21:36.609]-CPU:2  [           init:    1] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<7>[   19.266464 / 01-01 02:21:36.609]-CPU:2  [           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[   19.271442 / 01-01 02:21:36.609]-CPU:2  [           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[   19.271908 / 01-01 02:21:36.609]-CPU:2  [           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[   19.276177 / 01-01 02:21:36.609]-CPU:2  [           init:    1] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<6>[   19.359835 / 01-01 02:21:36.689]-CPU:1  [           init:    1] EXT4-fs (mmcblk0p23): recovery complete
+<6>[   19.368986 / 01-01 02:21:36.699]-CPU:1  [           init:    1] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: barrier=1
+<7>[   19.381168 / 01-01 02:21:36.709]-CPU:1  [           init:    1] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+<6>[   19.387774 / 01-01 02:21:36.719]-CPU:1  [           init:    1] EXT4-fs (mmcblk0p15): mounted filesystem with ordered data mode. Opts: barrier=1,discard
+<7>[   19.400429 / 01-01 02:21:36.729]-CPU:1  [           init:    1] SELinux: initialized (dev mmcblk0p15, type ext4), uses xattr
+<4>[   19.425360 / 01-01 02:21:36.759]-CPU:3  [   mmcblk_utils:  190] mmcblk_utils used greatest stack depth: 5252 bytes left
+<6>[   19.471361 / 01-01 02:21:36.799]-CPU:1  [           init:    1] EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode. Opts: barrier=1
+<7>[   19.483360 / 01-01 02:21:36.809]-CPU:1  [           init:    1] SELinux: initialized (dev mmcblk0p16, type ext4), uses xattr
+<6>[   20.950188 / 01-01 02:21:38.279]-CPU:1  [           init:  200] EXT4-fs (mmcblk0p29): mounted filesystem with ordered data mode. Opts: barrier=1,noauto_da_alloc,discard
+<7>[   20.964242 / 01-01 02:21:38.299]-CPU:1  [           init:  200] SELinux: initialized (dev mmcblk0p29, type ext4), uses xattr
+<6>[   20.995197 / 01-01 02:21:38.329]-CPU:1  [           init:    1] EXT4-fs (mmcblk0p17): mounted filesystem with ordered data mode. Opts: barrier=1
+<7>[   21.007162 / 01-01 02:21:38.339]-CPU:1  [           init:    1] SELinux: initialized (dev mmcblk0p17, type ext4), uses xattr
+<7>[   21.014904 / 01-01 02:21:38.349]-CPU:1  [           init:    1] SELinux: initialized (dev mmcblk0p1, type vfat), uses genfs_contexts
+<6>[   21.049626 / 01-01 02:21:38.379]-CPU:1  [           init:    1] EXT4-fs (mmcblk0p28): mounted filesystem with ordered data mode. Opts: barrier=1
+<7>[   21.061591 / 01-01 02:21:38.389]-CPU:1  [           init:    1] SELinux: initialized (dev mmcblk0p28, type ext4), uses xattr
+<4>[   21.135428 / 01-01 02:21:38.469]-CPU:3  [           init:    1] mwlan_aarp: module license '' taints kernel.
+<4>[   21.144241 / 01-01 02:21:38.479]-CPU:3  [           init:    1] Disabling lock debugging due to kernel taint
+<7>[   21.154872 / 01-01 02:21:38.489]-CPU:3  [           init:    1] I-WLAN/mwlan_aarp, mwlan ko src, 2014.1.15
+<7>[   21.166398 / 01-01 02:21:38.499]-CPU:3  [           init:    1] mwlan_aarp init_module() was successful.
+<3>[   21.226250 / 01-01 02:21:38.559]-CPU:3  [           init:    1] init: Detected MSM SOC ID=217 SOC VER=65536 BOARD TYPE=Unknown
+<3>[   21.237117 / 01-01 02:21:38.569]-CPU:3  [           init:    1] init: failed to open '/sys/class/graphics/fb2/msm_fb_type'
+<3>[   21.247932 / 01-01 02:21:38.589]-CPU:3  [           init:    1] init: property 'persist.sys.ssr.enable_debug' doesn't exist while expanding '${persist.sys.ssr.enable_debug}'
+<3>[   21.263117 / 01-01 02:21:38.599]-CPU:3  [           init:    1] init: cannot expand '${persist.sys.ssr.enable_debug}' while writing to '/sys/module/subsystem_restart/parameters/enable_debug'
+<6>[   21.289952 / 01-01 02:21:38.619]-CPU:3  [           init:    1] pil-q6v5-lpass fe200000.qcom,lpass: adsp: loading from 0x05a00000 to 0x06e00000
+<6>[   21.710344 / 01-01 02:21:39.039]-CPU:3  [           init:    1] pil-q6v5-lpass fe200000.qcom,lpass: adsp: Brought out of reset
+<6>[   21.766122 / 01-01 02:21:39.099]-CPU:1  [   irq/478-adsp:   86] pil-q6v5-lpass fe200000.qcom,lpass: adsp: Power/Clock ready interrupt received
+<6>[   21.789572 / 01-01 02:21:39.129]-CPU:0 I[      swapper/0:    0] pil-q6v5-lpass fe200000.qcom,lpass: Subsystem error monitoring/handling services are up
+<6>[   21.804285 / 01-01 02:21:39.139]-CPU:0  [    kworker/0:2:  141] apr_tal:Q6 Is Up
+<6>[   21.805207 / 01-01 02:21:39.139]-CPU:1  [    kworker/u:2:   39] 8941_mvs1: 
+<3>[   21.805405 / 01-01 02:21:39.139]-CPU:1  [    kworker/u:2:   39] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   21.805858 / 01-01 02:21:39.139]-CPU:1  [    kworker/u:2:   39] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   21.806339 / 01-01 02:21:39.139]-CPU:1  [    kworker/u:2:   39] msm8974-asoc-taiko fe02c000.sound: msm8974_asoc_machine_probe(): No hdmi audio support
+<6>[   21.807036 / 01-01 02:21:39.139]-CPU:1  [    kworker/u:2:   39] platform fe02c000.sound: Driver msm8974-asoc-taiko requests probe deferral
+<3>[   21.807123 / 01-01 02:21:39.139]-CPU:1  [    kworker/u:2:   39] diag: In diag_send_msg_mask_update, invalid status 0
+<3>[   21.807132 / 01-01 02:21:39.139]-CPU:1  [    kworker/u:2:   39] diag: In diag_send_log_mask_update, invalid status 0
+<6>[   21.807832 / 01-01 02:21:39.139]-CPU:1  [           init:    1] adsp-loader qcom,msm-adsp-loader.42: adsp_loader_do: Q6/ADSP image is loaded
+<6>[   21.903010 / 01-01 02:21:39.239]-CPU:1  [    kworker/u:1:   35] msm8974-asoc-taiko fe02c000.sound: msm8974_asoc_machine_probe(): No hdmi audio support
+<6>[   21.916666 / 01-01 02:21:39.249]-CPU:1  [    kworker/u:1:   35] platform fe02c000.sound: Driver msm8974-asoc-taiko requests probe deferral
+<6>[   21.919449 / 01-01 02:21:39.249]-CPU:2  [    kworker/u:2:   39] Slimbus QMI NGD CB received event:2
+<6>[   21.937874 / 01-01 02:21:39.270]-CPU:1  [    kworker/u:1:   35] 8941_mvs1: 
+<6>[   21.944201 / 01-01 02:21:39.280]-CPU:2  [ ngd_rx_thread1:  175] SLIM SAT: Received master capability
+<3>[   21.944339 / 01-01 02:21:39.280]-CPU:1  [    kworker/u:1:   35] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   21.944872 / 01-01 02:21:39.280]-CPU:1  [    kworker/u:1:   35] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   21.978914 / 01-01 02:21:39.309]-CPU:2  [ ngd_rx_thread1:  175] sps:BAM 0xfe104000 (va:0xc6140000) enabled: ver:0x13, number of pipes:31
+<6>[   21.990789 / 01-02 04:00:00.000]-CPU:2  [ ngd_rx_thread1:  175] sps:BAM 0xfe104000 is registered.
+<6>[   21.990804 / 01-02 04:00:00.000]-CPU:3  [           date:  248] alarm_set_rtc: Failed to set RTC, time will be lost on reboot
+<6>[   22.012703 / 01-02 04:00:00.020]-CPU:0  [ ngd_rx_thread1:  175] SLIM SAT: capability exchange successful
+<6>[   22.021426 / 01-02 04:00:00.030]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: Platform data from device tree
+<6>[   22.032235 / 01-02 04:00:00.040]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: cdc-vdd-buck: vol=[2150000 2150000]uV, curr=[650000]uA, ond 0
+<6>[   22.045768 / 01-02 04:00:00.060]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: cdc-vdd-tx-h: vol=[1800000 1800000]uV, curr=[25000]uA, ond 0
+<6>[   22.059356 / 01-02 04:00:00.070]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: cdc-vdd-rx-h: vol=[1800000 1800000]uV, curr=[25000]uA, ond 0
+<6>[   22.072852 / 01-02 04:00:00.080]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: cdc-vddpx-1: vol=[1800000 1800000]uV, curr=[10000]uA, ond 0
+<6>[   22.086303 / 01-02 04:00:00.100]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: cdc-vdd-a-1p2v: vol=[1225000 1225000]uV, curr=[10000]uA, ond 0
+<6>[   22.100032 / 01-02 04:00:00.110]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: cdc-vddcx-1: vol=[1225000 1225000]uV, curr=[10000]uA, ond 0
+<6>[   22.113481 / 01-02 04:00:00.120]-CPU:1  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: cdc-vddcx-2: vol=[1225000 1225000]uV, curr=[10000]uA, ond 0
+<6>[   22.184895 / 01-02 04:00:00.200]-CPU:0  [ ngd_notify_sl1:  176] slimbus:1 laddr:0xcb, EAPC:0x1:0xa0
+<6>[   22.192760 / 01-02 04:00:00.200]-CPU:1  [    kworker/u:1:   35] taiko-slim taiko-slim-pgd: wcd9xxx_slim_device_up: slim device up
+<6>[   22.193583 / 01-02 04:00:00.200]-CPU:0  [ ngd_notify_sl1:  176] slimbus:1 laddr:0xca, EAPC:0x0:0xa0
+<6>[   22.199506 / 01-02 04:00:00.210]-CPU:0  [ ngd_notify_sl1:  176] taiko-slim taiko-slim-pgd: wcd9xxx_check_codec_type: detected taiko_codec, major 0x102, minor 0x1, ver 0x2
+<6>[   22.199521 / 01-02 04:00:00.210]-CPU:0  [ ngd_notify_sl1:  176] wcd9xxx_core_res_init: num_irqs = 31, num_irq_regs = 4
+<6>[   22.241242 / 01-02 04:00:00.250]-CPU:1  [    kworker/u:1:   35] 8941_mvs1: 
+<3>[   22.247377 / 01-02 04:00:00.260]-CPU:1  [    kworker/u:1:   35] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   22.260029 / 01-02 04:00:00.270]-CPU:1  [    kworker/u:1:   35] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   22.272881 / 01-02 04:00:00.280]-CPU:1  [    kworker/u:1:   35] msm8974-asoc-taiko fe02c000.sound: msm8974_asoc_machine_probe(): No hdmi audio support
+<6>[   22.292154 / 01-02 04:00:00.300]-CPU:1  [    kworker/u:1:   35] taiko_codec taiko_codec: taiko_codec_probe()
+<6>[   22.412339 / 01-02 04:00:00.420]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia1 mapping ok
+<6>[   22.423983 / 01-02 04:00:00.430]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia2 mapping ok
+<6>[   22.435584 / 01-02 04:00:00.450]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> CS-VOICE mapping ok
+<6>[   22.446833 / 01-02 04:00:00.460]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> VoIP mapping ok
+<6>[   22.457967 / 01-02 04:00:00.470]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia3 mapping ok
+<6>[   22.469650 / 01-02 04:00:00.480]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> SLIMBUS0_HOSTLESS mapping ok
+<6>[   22.481623 / 01-02 04:00:00.490]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> INT_FM_HOSTLESS mapping ok
+<6>[   22.493086 / 01-02 04:00:00.500]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-rx <-> msm-dai-q6-dev.241 mapping ok
+<6>[   22.503845 / 01-02 04:00:00.510]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-dev.240 mapping ok
+<6>[   22.515596 / 01-02 04:00:00.530]-CPU:0  [    kworker/u:1:   35] compress asoc: snd-soc-dummy-dai <-> MultiMedia4 mapping ok
+<6>[   22.527867 / 01-02 04:00:00.540]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> AUXPCM_HOSTLESS mapping ok
+<6>[   22.539682 / 01-02 04:00:00.550]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> SLIMBUS1_HOSTLESS mapping ok
+<6>[   22.551775 / 01-02 04:00:00.560]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> SLIMBUS3_HOSTLESS mapping ok
+<6>[   22.563864 / 01-02 04:00:00.580]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> SLIMBUS4_HOSTLESS mapping ok
+<6>[   22.575984 / 01-02 04:00:00.590]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> VoLTE mapping ok
+<4>[   22.585932 / 01-02 04:00:00.600]-CPU:1  [             cp:  328] cp used greatest stack depth: 4692 bytes left
+<6>[   22.587170 / 01-02 04:00:00.600]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia5 mapping ok
+<6>[   22.589075 / 01-02 04:00:00.600]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> LSM mapping ok
+<6>[   22.591487 / 01-02 04:00:00.600]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia6 mapping ok
+<6>[   22.593534 / 01-02 04:00:00.600]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia7 mapping ok
+<6>[   22.595906 / 01-02 04:00:00.610]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia8 mapping ok
+<6>[   22.598108 / 01-02 04:00:00.610]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> QCHAT mapping ok
+<6>[   22.599985 / 01-02 04:00:00.610]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> HDMI_HOSTLESS mapping ok
+<6>[   22.602218 / 01-02 04:00:00.610]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> Voice2 mapping ok
+<6>[   22.604450 / 01-02 04:00:00.620]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> INT_HFP_BT_HOSTLESS mapping ok
+<6>[   22.606725 / 01-02 04:00:00.620]-CPU:0  [    kworker/u:1:   35] asoc: snd-soc-dummy-dai <-> MultiMedia6 mapping ok
+<6>[   22.608536 / 01-02 04:00:00.620]-CPU:0  [    kworker/u:1:   35] asoc: taiko_vifeedback <-> msm-dai-q6-dev.16393 mapping ok
+<6>[   22.610304 / 01-02 04:00:00.620]-CPU:0  [    kworker/u:1:   35] asoc: taiko_rx2 <-> msm-dai-q6-dev.16388 mapping ok
+<6>[   22.612182 / 01-02 04:00:00.620]-CPU:0  [    kworker/u:1:   35] asoc: taiko_tx2 <-> msm-dai-q6-dev.16389 mapping ok
+<6>[   22.613605 / 01-02 04:00:00.620]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-rx <-> msm-dai-q6-dev.12288 mapping ok
+<6>[   22.615090 / 01-02 04:00:00.630]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-dev.12289 mapping ok
+<6>[   22.616566 / 01-02 04:00:00.630]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-rx <-> msm-dai-q6-dev.12292 mapping ok
+<6>[   22.618012 / 01-02 04:00:00.630]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-dev.12293 mapping ok
+<6>[   22.619421 / 01-02 04:00:00.630]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-rx <-> msm-dai-q6-dev.224 mapping ok
+<6>[   22.620873 / 01-02 04:00:00.630]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-dev.225 mapping ok
+<6>[   22.622352 / 01-02 04:00:00.630]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-rx <-> msm-dai-q6-auxpcm.1 mapping ok
+<6>[   22.623828 / 01-02 04:00:00.630]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-auxpcm.1 mapping ok
+<6>[   22.625928 / 01-02 04:00:00.640]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-rx <-> msm-dai-q6-auxpcm.2 mapping ok
+<6>[   22.627338 / 01-02 04:00:00.640]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-auxpcm.2 mapping ok
+<6>[   22.628603 / 01-02 04:00:00.640]-CPU:0  [    kworker/u:1:   35] msm_audrx_init(), dev_namemsm-dai-q6-dev.16384
+<6>[   22.860332 / 01-02 04:00:00.870]-CPU:0  [    kworker/u:1:   35] asoc: taiko_rx1 <-> msm-dai-q6-dev.16384 mapping ok
+<6>[   22.875063 / 01-02 04:00:00.890]-CPU:0  [    kworker/u:1:   35] asoc: taiko_tx1 <-> msm-dai-q6-dev.16385 mapping ok
+<6>[   22.886167 / 01-02 04:00:00.900]-CPU:0  [    kworker/u:1:   35] asoc: taiko_rx1 <-> msm-dai-q6-dev.16386 mapping ok
+<6>[   22.897178 / 01-02 04:00:00.910]-CPU:0  [    kworker/u:1:   35] asoc: taiko_tx1 <-> msm-dai-q6-dev.16387 mapping ok
+<6>[   22.908077 / 01-02 04:00:00.920]-CPU:0  [    kworker/u:1:   35] asoc: taiko_rx1 <-> msm-dai-q6-dev.16390 mapping ok
+<6>[   22.919001 / 01-02 04:00:00.930]-CPU:0  [    kworker/u:1:   35] asoc: taiko_tx1 <-> msm-dai-q6-dev.16391 mapping ok
+<6>[   22.929897 / 01-02 04:00:00.940]-CPU:0  [    kworker/u:1:   35] asoc: taiko_rx1 <-> msm-dai-q6-dev.16392 mapping ok
+<6>[   22.940769 / 01-02 04:00:00.950]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-dev.32772 mapping ok
+<6>[   22.951406 / 01-02 04:00:00.960]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-tx <-> msm-dai-q6-dev.32771 mapping ok
+<6>[   22.962416 / 01-02 04:00:00.970]-CPU:0  [    kworker/u:1:   35] asoc: taiko_mad1 <-> msm-dai-q6-dev.16395 mapping ok
+<6>[   22.973400 / 01-02 04:00:00.990]-CPU:0  [    kworker/u:1:   35] asoc: msm-stub-rx <-> msm-dai-q6-dev.32773 mapping ok
+<6>[   23.016101 / 01-02 04:00:01.030]-CPU:0  [    kworker/u:1:   35] input: msm8974-taiko-mtp-snd-card Button Jack as /devices/fe02c000.sound/sound/card0/input9
+<6>[   23.030953 / 01-02 04:00:01.040]-CPU:0  [    kworker/u:1:   35] input: msm8974-taiko-mtp-snd-card Headset Jack as /devices/fe02c000.sound/sound/card0/input10
+<6>[   23.046299 / 01-02 04:00:01.060]-CPU:0  [    kworker/u:1:   35] msm8974-asoc-taiko fe02c000.sound: property qcom,us-euro-gpios not detected in node /soc/sound
+<6>[   23.061269 / 01-02 04:00:01.070]-CPU:0  [    kworker/u:1:   35] 8941_mvs1: 
+<3>[   23.067509 / 01-02 04:00:01.080]-CPU:0  [    kworker/u:1:   35] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   23.080277 / 01-02 04:00:01.090]-CPU:0  [    kworker/u:1:   35] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   23.254608 / 01-02 04:00:01.270]-CPU:1  [           init:    1] reset timed out, waiting again..
+<3>[   23.264485 / 01-02 04:00:01.280]-CPU:1  [           init:    1] fpc1080 spi32766.0: irq after reset timed out
+<6>[   23.275702 / 01-02 04:00:01.290]-CPU:1  [           init:    1] reset timed out, waiting again..
+<3>[   23.285446 / 01-02 04:00:01.300]-CPU:1  [           init:    1] fpc1080 spi32766.0: irq after reset timed out
+<6>[   23.321077 / 01-02 04:00:01.330]-CPU:1  [           init:    1] Tuxera exFAT driver version 3014.1.24 [Flags: R/W MODULE].
+<3>[   23.336724 / 01-02 04:00:01.350]-CPU:3  [        healthd:  366] healthd: wakealarm_init: timerfd_create failed
+<3>[   23.454062 / 01-02 04:00:01.460]-CPU:3  [           init:    1] init: cannot find '/system/bin/mm-gesture-daemon', disabling 'qgesturesvr'
+<3>[   23.472698 / 01-02 04:00:01.480]-CPU:3  [           init:    1] init: property 'sys.powerctl' doesn't exist while expanding '${sys.powerctl}'
+<3>[   23.486411 / 01-02 04:00:01.500]-CPU:3  [           init:    1] init: powerctl: cannot expand '${sys.powerctl}'
+<3>[   23.497565 / 01-02 04:00:01.510]-CPU:3  [           init:    1] init: property 'sys.sysctl.extra_free_kbytes' doesn't exist while expanding '${sys.sysctl.extra_free_kbytes}'
+<3>[   23.512414 / 01-02 04:00:01.520]-CPU:3  [           init:    1] init: cannot expand '${sys.sysctl.extra_free_kbytes}' while writing to '/proc/sys/vm/extra_free_kbytes'
+<3>[   23.529979 / 01-02 04:00:01.540]-CPU:3  [           init:    1] init: property 'persist.sys.ssr.restart_level' doesn't exist while expanding '${persist.sys.ssr.restart_level}'
+<3>[   23.551950 / 01-02 04:00:01.560]-CPU:3  [           init:    1] [functions_store] called[cdrom,mtp,serial,diag,obex,adb] pantech_module[0]
+<3>[   23.569330 / 01-02 04:00:01.580]-CPU:3  [           init:    1] [functions_store] called[cdrom,mtp,serial,diag,obex,adb] android_enabel_function_cb start!![1]
+<6>[   23.569903 / 01-02 04:00:01.580]-CPU:0  [          qrngd:  400] warning: `qrngd' uses 32-bit capabilities (legacy support in use)
+<5>[   23.579242 / 01-02 04:00:01.580]-CPU:0  [       installd:  384] type=1400 audit(1230868801.580:4): avc:  denied  { write } for  pid=384 comm="installd" name="wifi" dev="tmpfs" ino=10399 scontext=u:r:installd:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<7>[   23.583754 / 01-02 04:00:01.580]-CPU:1  [         sdcard:  410] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+<7>[   23.583787 / 01-02 04:00:01.580]-CPU:0  [         sdcard:  413] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+<7>[   23.584353 / 01-02 04:00:01.580]-CPU:0  [         sdcard:  411] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+<6>[   23.623373 / 05-09 10:28:18.050]-CPU:1  [    time_daemon:  416] alarm_set_rtc: Failed to set RTC, time will be lost on reboot
+<3>[   23.631931 / 05-09 10:28:18.060]-CPU:3  [           init:    1] [PUSB]usb manager not ready!
+<6>[   23.639745 / 05-09 10:28:18.070]-CPU:3  [           adbd:  485] adb_open
+<7>[   23.668788 / 05-09 10:28:18.100]-CPU:0  [         dmmond:  388] diag: USB disconnected
+<6>[   23.677933 / 05-09 10:28:18.110]-CPU:1  [ thermal-engine:  495] msm_thermal: enabled = 0
+<6>[   23.693481 / 05-09 10:28:18.120]-CPU:0  [       adsprpcd:  402] 'opened /dev/adsprpc-smd c 243 0'
+<6>[   23.699258 / 05-09 10:28:18.130]-CPU:2  [       phantomd:  391] pil-q6v5-mss fc880000.qcom,mss: mba: loading from 0x0d100000 to 0x0d13a000
+<7>[   23.747763 / 05-09 10:28:18.180]-CPU:0  [         dmmond:  388] diag: USB connected
+<3>[   23.747779 / 05-09 10:28:18.180]-CPU:0  [         dmmond:  388] diag: unable to alloc USB req on legacy ch, Cancel err no -19
+<7>[   23.765709 / 05-09 10:28:18.200]-CPU:0  [         dmmond:  388] diag: USB disconnected
+<7>[   23.816042 / 05-09 10:28:18.250]-CPU:0  [         dmmond:  388] diag: USB connected
+<3>[   23.816055 / 05-09 10:28:18.250]-CPU:0  [         dmmond:  388] diag: unable to alloc USB req on legacy ch, Cancel err no -19
+<7>[   23.827591 / 05-09 10:28:18.260]-CPU:0  [         dmmond:  388] diag: USB disconnected
+<7>[   23.878309 / 05-09 10:28:18.310]-CPU:0  [         dmmond:  388] diag: USB connected
+<3>[   23.878325 / 05-09 10:28:18.310]-CPU:0  [         dmmond:  388] diag: unable to alloc USB req on legacy ch, Cancel err no -19
+<6>[   23.885618 / 05-09 10:28:18.320]-CPU:2  [       phantomd:  391] pil-q6v5-mss fc880000.qcom,mss: mba: Brought out of reset
+<4>[   23.975655 / 05-09 10:28:18.410]-CPU:0  [       keystore:  386] QSEECOM: qseecom_release: data: released = false, type = 1, data = 0xf09fd540
+<4>[   24.006382 / 05-09 10:28:18.440]-CPU:0  [       keystore:  386] QSEECOM: qseecom_release: data: released = false, type = 1, data = 0xf09fd540
+<7>[   24.052862 / 05-09 10:28:18.480]-CPU:1  [ surfaceflinger:  380] msm_fb_manufacture_id : 2 
+<7>[   24.055893 / 05-09 10:28:18.490]-CPU:1  [ surfaceflinger:  572] mdss_fb_blank_sub : blank_mode =0
+<3>[   24.055927 / 05-09 10:28:18.490]-CPU:1  [ surfaceflinger:  572] mdss_fb_ioctl: #MSMFB_LCD_SMART_DIMMING_READ
+<3>[   24.066643 / 05-09 10:28:18.500]-CPU:1  [ surfaceflinger:  572] mdss_fb_ioctl: #MSMFB_LCD_SMART_DIMMING_WRITE
+<7>[   24.097396 / 05-09 10:28:18.530]-CPU:1  [ surfaceflinger:  572] mdss_fb_blank_sub : blank_mode =4
+<6>[   24.109245 / 05-09 10:28:18.540]-CPU:1  [          mount:  563] EXT4-fs (mmcblk0p15): re-mounted. Opts: (null)
+<6>[   24.120185 / 05-09 10:28:18.550]-CPU:2  [       phantomd:  391] pil-q6v5-mss fc880000.qcom,mss: modem: loading from 0x08000000 to 0x0d100000
+<6>[   24.205702 / 05-09 10:28:18.640]-CPU:3  [ pantech_server:  587] ramdump_store : , ramdump : 1
+<6>[   24.213304 / 05-09 10:28:18.640]-CPU:3  [ pantech_server:  587] usbdump_store : , usbdump : 1
+<6>[   24.321440 / 05-09 10:28:18.750]-CPU:3  [          mount:  616] EXT4-fs (mmcblk0p15): re-mounted. Opts: (null)
+<6>[   24.434367 / 05-09 10:28:18.870]-CPU:3  [ pantech_server:  587] coresight-tmc fc307000.tmc: TMC enabled
+<6>[   24.442749 / 05-09 10:28:18.870]-CPU:3  [ pantech_server:  587] coresight-funnel fc31b000.funnel: FUNNEL inport 1 enabled
+<6>[   24.455372 / 05-09 10:28:18.890]-CPU:3  [ pantech_server:  587] coresight-funnel fc31a000.funnel: FUNNEL inport 5 enabled
+<6>[   24.465768 / 05-09 10:28:18.900]-CPU:3  [ pantech_server:  587] coresight-funnel fc345000.funnel: FUNNEL inport 0 enabled
+<7>[   24.465780 / 05-09 10:28:18.900]-CPU:0  [ surfaceflinger:  380] mdss_fb_blank_sub : blank_mode =0
+<4>[   24.467944 / 05-09 10:28:18.900]-CPU:2  [       qseecomd:  373] QSEECOM: qseecom_load_app: App (keymaste) does'nt exist, loading apps for first time
+<4>[   24.472657 / 05-09 10:28:18.900]-CPU:2  [       qseecomd:  373] QSEECOM: qseecom_load_app: App with id 2 (keymaste) now loaded
+<7>[   24.501058 / 05-09 10:28:18.930]-CPU:3  [ surfaceflinger:  380] mdss_fb_blank_sub : blank_mode =0
+<6>[   24.502881 / 05-09 10:28:18.930]-CPU:3  [ pantech_server:  587] coresight-etm fc33c000.etm: ETM tracing enabled
+<6>[   24.512191 / 05-09 10:28:18.950]-CPU:3  [ pantech_server:  587] coresight-funnel fc345000.funnel: FUNNEL inport 1 enabled
+<7>[   24.513923 / 05-09 10:28:18.950]-CPU:2  [          mount:  609] SELinux: initialized (dev mmcblk0p22, type vfat), uses genfs_contexts
+<6>[   24.527669 / 05-09 10:28:18.960]-CPU:3  [ pantech_server:  587] coresight-etm fc33d000.etm: ETM tracing enabled
+<6>[   24.537205 / 05-09 10:28:18.970]-CPU:3  [ pantech_server:  587] coresight-funnel fc345000.funnel: FUNNEL inport 2 enabled
+<6>[   24.548119 / 05-09 10:28:18.980]-CPU:3  [ pantech_server:  587] coresight-etm fc33e000.etm: ETM tracing enabled
+<6>[   24.558027 / 05-09 10:28:18.990]-CPU:3  [ pantech_server:  587] coresight-funnel fc345000.funnel: FUNNEL inport 3 enabled
+<6>[   24.571767 / 05-09 10:28:19.000]-CPU:3  [ pantech_server:  587] coresight-etm fc33f000.etm: ETM tracing enabled
+<6>[   24.635697 / 05-09 10:28:19.070]-CPU:1  [ pantech_server:  587] userdump_store : , userdump : 1
+<6>[   24.731567 / 05-09 10:28:19.160]-CPU:3  [             sh:  669] ssrdump_store : ssrdump : modem_enable
+<6>[   24.731577 / 05-09 10:28:19.160]-CPU:3  [             sh:  669] , count : 13
+<6>[   24.860417 / 05-09 10:28:19.290]-CPU:3  [             sh:  684] ssrdump_store : ssrdump : modem_dump_disable
+<6>[   24.860427 / 05-09 10:28:19.290]-CPU:3  [             sh:  684] , count : 19
+<7>[   25.062211 / 05-09 10:28:19.490]-CPU:1  [ surfaceflinger:  380] mdss_fb_blank_sub : blank_mode =0
+<3>[   25.369424 / 05-09 10:28:19.800]-CPU:0  [    mediaserver:  383] 
+<3>[   25.369435 / 05-09 10:28:19.800]-CPU:0  [    mediaserver:  383] LVSE: lvse_get_setting_lvm_control_in_kernel : Don't get session control
+<3>[   25.388543 / 05-09 10:28:19.820]-CPU:0  [    mediaserver:  383] APR: Wrong parameters
+<3>[   25.395936 / 05-09 10:28:19.830]-CPU:0  [    mediaserver:  383] adm_get_params: Failed to Get Params on port 16385
+<3>[   25.406107 / 05-09 10:28:19.840]-CPU:0  [    mediaserver:  383] msm_routing_get_rms_value_control: get parameters failed
+<6>[   25.501988 / 05-09 10:28:19.930]-CPU:1  [ surfaceflinger:  380] mdss_dsi_cont_splash_on:694 DSI on for continuous splash.
+<4>[   25.512239 / 05-09 10:28:19.940]-CPU:1  [ surfaceflinger:  380] ------------[ cut here ]------------
+<4>[   25.521994 / 05-09 10:28:19.950]-CPU:1  [ surfaceflinger:  380] WARNING: at /home/p13042/project/pscm/p13042_EF63S_UI_dev/MSM8974_KK/kernel/drivers/video/msm/mdss/mdss_dsi.c:710 mdss_dsi_cont_splash_on+0x84/0x134()
+<3>[   25.538027 / 05-09 10:28:19.970]-CPU:3  [    mediaserver:  383] msm_audio_ion_import: DMA Buf name=audio_acdb_client, fd=21 handle=ef257700
+<7>[   25.552933 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] Incorrect Ctrl state=0x1
+<7>[   25.552945 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] Modules linked in: texfat(PO) mwlan_aarp(PO)
+<7>[   25.552977 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c010bf38>] (unwind_backtrace+0x0/0x11c) from [<c0197818>] (warn_slowpath_common+0x4c/0x64)
+<7>[   25.552996 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c0197818>] (warn_slowpath_common+0x4c/0x64) from [<c01978b0>] (warn_slowpath_fmt+0x2c/0x3c)
+<7>[   25.553017 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c01978b0>] (warn_slowpath_fmt+0x2c/0x3c) from [<c03d798c>] (mdss_dsi_cont_splash_on+0x84/0x134)
+<7>[   25.553036 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03d798c>] (mdss_dsi_cont_splash_on+0x84/0x134) from [<c03d7c7c>] (mdss_dsi_event_handler+0x240/0x7dc)
+<7>[   25.553058 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03d7c7c>] (mdss_dsi_event_handler+0x240/0x7dc) from [<c03bb36c>] (mdss_mdp_ctl_intf_event+0x6c/0xa0)
+<7>[   25.553120 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03bb36c>] (mdss_mdp_ctl_intf_event+0x6c/0xa0) from [<c03ccf58>] (mdss_mdp_cmd_reconfigure_splash_done+0x20/0x3c)
+<7>[   25.553138 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03ccf58>] (mdss_mdp_cmd_reconfigure_splash_done+0x20/0x3c) from [<c03cfd80>] (mdss_mdp_overlay_start+0x1b8/0x240)
+<7>[   25.553156 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03cfd80>] (mdss_mdp_overlay_start+0x1b8/0x240) from [<c03d33b4>] (mdss_mdp_overlay_ioctl_handler+0x700/0xed8)
+<7>[   25.553175 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03d33b4>] (mdss_mdp_overlay_ioctl_handler+0x700/0xed8) from [<c03f9504>] (mdss_fb_ioctl+0x548/0x5d4)
+<7>[   25.553192 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03f9504>] (mdss_fb_ioctl+0x548/0x5d4) from [<c03b0af4>] (do_fb_ioctl+0x570/0x5c0)
+<7>[   25.553211 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c03b0af4>] (do_fb_ioctl+0x570/0x5c0) from [<c026b438>] (do_vfs_ioctl+0x548/0x5bc)
+<7>[   25.553230 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c026b438>] (do_vfs_ioctl+0x548/0x5bc) from [<c026b4f8>] (sys_ioctl+0x4c/0x6c)
+<7>[   25.553262 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] [<c026b4f8>] (sys_ioctl+0x4c/0x6c) from [<c0105dc0>] (ret_fast_syscall+0x0/0x30)
+<4>[   25.553283 / 05-09 10:28:19.980]-CPU:1  [ surfaceflinger:  380] ---[ end trace 2baf7bfa907a6741 ]---
+<6>[   25.561974 / 05-09 10:28:19.990]-CPU:1  [ surfaceflinger:  380] [pantech_sys_reset_backlight_flag_set] changed_reset_reason :0xDABC8031
+<6>[   25.567034 / 05-09 10:28:20.000]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[manager_on], isFirstRun = [1]
+<6>[   25.576340 / 05-09 10:28:20.010]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[gadget_off]
+<6>[   25.576358 / 05-09 10:28:20.010]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write - Handled disconnect[0]
+<6>[   25.576371 / 05-09 10:28:20.010]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[disconnected]
+<6>[   25.576609 / 05-09 10:28:20.010]-CPU:2  [    usb_manager:  397] send_usb_event: sent uevent [USB_STATE=DISCONNECTED]
+<6>[   25.576622 / 05-09 10:28:20.010]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[pc_mode]
+<6>[   25.577913 / 05-09 10:28:20.010]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[carrier_mode|kor]
+<6>[   25.577924 / 05-09 10:28:20.010]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write - carrier_mode [0]
+<4>[   25.694459 / 05-09 10:28:20.130]-CPU:1  [       mdss_fb0:  638] mdss_dsi_on:462 Panel already on.
+<3>[   25.701362 / 05-09 10:28:20.130]-CPU:2  [           init:    1] [functions_store] called[cdrom,mtp,serial,diag,obex,adb] pantech_module[1]
+<3>[   25.701381 / 05-09 10:28:20.130]-CPU:2  [           init:    1] [functions_store] called[cdrom,mtp,serial,diag,obex,adb] android_enabel_function_cb start!![1]
+<3>[   25.701402 / 05-09 10:28:20.130]-CPU:2  [           init:    1] [PUSB][android_enable_function_cb][cdrom,mtp,serial,diag,obex,adb]
+<3>[   25.701558 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB]mode_change_poll request
+<6>[   25.701691 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[gadget_off]
+<6>[   25.701707 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write - Handled disconnect[0]
+<6>[   25.701725 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[cdrom,mtp,serial,diag,obex,adb]
+<3>[   25.701745 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB]g_device_type[0x0] == device_cfg_flag[0x0], temp[0x47a]
+<3>[   25.701758 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write - enable cmd : cdrom,mtp,serial,diag,obex,adb, cnt : 30, android_dev enabled[0]
+<3>[   25.701772 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] xsemiyas[pantech_set_cdrom_enabled]:enabled[0], only[0]
+<3>[   25.701806 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB][cdrom]enabled
+<3>[   25.701829 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB][mtp]enabled
+<3>[   25.701847 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB][serial]enabled
+<3>[   25.701865 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB][diag]enabled
+<3>[   25.701882 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB][obex]enabled
+<3>[   25.701900 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB][adb]enabled
+<3>[   25.701919 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] xsemiyas[pantech_set_cdrom_enabled]:enabled[1], only[1]
+<6>[   25.701932 / 05-09 10:28:20.130]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write - Successfully enabled function - cdrom,mtp,serial,diag,obex,adb 
+<6>[   25.724228 / 05-09 10:28:20.160]-CPU:3  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[gadget_on]
+<6>[   25.724244 / 05-09 10:28:20.160]-CPU:3  [    usb_manager:  397] [PUSB]device_mode_change_write - Handled Connect[0]
+<3>[   25.724258 / 05-09 10:28:20.160]-CPU:3  [    usb_manager:  397] android_enable:disable_depth[1]
+<6>[   25.724314 / 05-09 10:28:20.160]-CPU:3  [    usb_manager:  397] mtp_bind_config
+<3>[   25.932389 / 05-09 10:28:20.360]-CPU:3  [    usb_manager:  397] pantech_obex_bind_config
+<6>[   25.933280 / 05-09 10:28:20.360]-CPU:1  [       mdss_fb0:  638] [pantech_sys_reset_backlight_flag_set] changed_reset_reason :0xDABC8031
+<3>[   25.952923 / 05-09 10:28:20.380]-CPU:3  [    usb_manager:  397] pantech_obex_function_bind : tarial dual speed obex: IN/ep7in, OUT/ep5out
+<3>[   25.967531 / 05-09 10:28:20.400]-CPU:3  [    usb_manager:  397] [PUSB]mode_change_poll request
+<7>[   26.123363 / 05-09 10:28:20.550]-CPU:1  [         zygote:  381] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[   27.010652 / 05-09 10:28:21.440]-CPU:3  [       phantomd:  391] pil-q6v5-mss fc880000.qcom,mss: modem: Brought out of reset
+<3>[   27.082562 / 05-09 10:28:21.510]-CPU:3  [    kworker/u:1:   35] Notify: smsm init
+<6>[   27.121007 / 05-09 10:28:21.550]-CPU:1  [    irq/414-mba:   87] pil-q6v5-mss fc880000.qcom,mss: mba: Power/Clock ready interrupt received
+<6>[   27.121030 / 05-09 10:28:21.550]-CPU:0 I[    kworker/0:2:  141] pil-q6v5-mss fc880000.qcom,mss: Subsystem error monitoring/handling services are up
+<6>[   27.126335 / 05-09 10:28:21.560]-CPU:2  [    kworker/u:1:   35] 8941_mvs1: 
+<3>[   27.126482 / 05-09 10:28:21.560]-CPU:2  [    kworker/u:1:   35] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   27.127130 / 05-09 10:28:21.560]-CPU:2  [    kworker/u:1:   35] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<3>[   27.199540 / 05-09 10:28:21.630]-CPU:2  [   sensors.qcom:  396] msm_ipc_router_send_control_msg: xprt_info not initialized
+<3>[   27.228654 / 05-09 10:28:21.660]-CPU:3  [ ims_rtp_daemon:  840] msm_ipc_router_send_control_msg: xprt_info not initialized
+<6>[   27.353574 / 05-09 10:28:21.780]-CPU:1  [    kworker/u:5:  239] 8941_mvs1: 
+<3>[   27.359809 / 05-09 10:28:21.790]-CPU:1  [    kworker/u:5:  239] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<3>[   27.368157 / 05-09 10:28:21.800]-CPU:3  [    kworker/u:4:  237] diag: In diag_send_msg_mask_update, invalid status 0
+<3>[   27.368168 / 05-09 10:28:21.800]-CPU:3  [    kworker/u:4:  237] diag: In diag_send_log_mask_update, invalid status 0
+<4>[   27.374690 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<4>[   27.374768 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1616 irq: 646 name: bq2419x_pw_good
+<4>[   27.374847 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<4>[   27.374916 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<3>[   27.375017 / 05-09 10:28:21.810]-CPU:0  [    kworker/0:2:  141] dwc3_msm_power_set_property_usb:USB VBUS state from PMIC [1]
+<7>[   27.375028 / 05-09 10:28:21.810]-CPU:0  [    kworker/0:2:  141] Charger online : 1
+<3>[   27.375194 / 05-09 10:28:21.810]-CPU:0  [    kworker/0:2:  141] dwc3_connect_work: send uevent USB_CABLE=CONNECT
+<4>[   27.376844 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<4>[   27.376935 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<4>[   27.377004 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<4>[   27.377075 / 05-09 10:28:21.810]-CPU:0 I[    kworker/u:1:   35] qpnpint_irq_mask_ack: hwirq 1600 irq: 647 name: bq2419x_int
+<7>[   27.379626 / 05-09 10:28:21.810]-CPU:0  [    kworker/0:2:  141] vbus:1, online:0, current:0, type:4, scope:2
+<6>[   27.500367 / 05-09 10:28:21.930]-CPU:0  [    kworker/0:2:  141] msm-dwc3 msm_dwc3: DWC3 exited from low power mode
+<6>[   27.515001 / 05-09 10:28:21.950]-CPU:0  [    kworker/u:5:  239] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   27.645554 / 05-09 10:28:22.080]-CPU:0  [    kworker/0:2:  141] vbus_gadget connect!!!
+<3>[   27.652800 / 05-09 10:28:22.080]-CPU:0  [    kworker/0:2:  141] [PUSB][usb_connect_cb]mode[usb_connected]
+<3>[   27.654419 / 05-09 10:28:22.090]-CPU:2  [    usb_manager:  397] [PUSB]mode_change_poll request
+<3>[   27.654460 / 05-09 10:28:22.090]-CPU:2  [    usb_manager:  397] [PUSB]usb_connected : 1
+<3>[   27.654569 / 05-09 10:28:22.090]-CPU:2  [    usb_manager:  397] [PUSB]mode_change_poll request
+<6>[   27.687324 / 05-09 10:28:22.120]-CPU:0 I[    kworker/0:2:  141] dwc3 f9200000.dwc3: Avail curr from USB = 2
+<6>[   27.697113 / 05-09 10:28:22.130]-CPU:0  [    kworker/0:2:  141] DWC3_SDP_CHARGER
+<7>[   27.708841 / 05-09 10:28:22.140]-CPU:0  [    kworker/0:2:  141] vbus:1, online:0, current:0, type:4, scope:2
+<6>[   27.885210 / 05-09 10:28:22.320]-CPU:0 I[      swapper/0:    0] dwc3 f9200000.dwc3: Avail curr from USB = 0
+<7>[   27.900354 / 05-09 10:28:22.330]-CPU:0  [    kworker/0:2:  141] vbus:1, online:0, current:0, type:4, scope:2
+<3>[   28.079491 / 05-09 10:28:22.510]-CPU:0  [    usb_manager:  397] [PUSB]mode_change_poll request
+<6>[   28.088010 / 05-09 10:28:22.520]-CPU:0  [    kworker/0:2:  141] apr_tal:Modem Is Up
+<6>[   28.090629 / 05-09 10:28:22.520]-CPU:2  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[connected]
+<6>[   28.090977 / 05-09 10:28:22.520]-CPU:2  [    usb_manager:  397] send_usb_event:  sent uevent [USB_STATE=CONNECTED]
+<3>[   28.091012 / 05-09 10:28:22.520]-CPU:2  [    usb_manager:  397] [PUSB]mode_change_poll request
+<6>[   28.128559 / 05-09 10:28:22.560]-CPU:3  [    kworker/u:5:  239] 8941_mvs1: 
+<7>[   28.128700 / 05-09 10:28:22.560]-CPU:0  [    kworker/0:4:  232] vbus:1, online:0, current:0, type:4, scope:2
+<3>[   28.135182 / 05-09 10:28:22.570]-CPU:3  [    kworker/u:5:  239] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   28.147835 / 05-09 10:28:22.580]-CPU:3  [    kworker/u:5:  239] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   28.296097 / 05-09 10:28:22.730]-CPU:0  [    kworker/u:5:  239] 8941_mvs1: 
+<3>[   28.302141 / 05-09 10:28:22.730]-CPU:0  [    kworker/u:5:  239] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<3>[   28.315554 / 05-09 10:28:22.750]-CPU:0 I[    kworker/0:4:  232] [PUSB][pantech_android_set_config] is called[0x47a]
+<6>[   28.316313 / 05-09 10:28:22.750]-CPU:2  [    kworker/u:5:  239] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   28.337889 / 05-09 10:28:22.770]-CPU:0 I[    kworker/0:4:  232] android_usb gadget: high-speed config #1: fe8050c8.android_usb
+<3>[   28.349304 / 05-09 10:28:22.780]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x20], g_device_flag[0x47a]
+<3>[   28.360854 / 05-09 10:28:22.790]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x28], g_device_flag[0x47a]
+<3>[   28.372369 / 05-09 10:28:22.800]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x38], g_device_flag[0x47a]
+<3>[   28.383911 / 05-09 10:28:22.810]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x38], g_device_flag[0x47a]
+<3>[   28.395473 / 05-09 10:28:22.830]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x78], g_device_flag[0x47a]
+<3>[   28.407019 / 05-09 10:28:22.840]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x478], g_device_flag[0x47a]
+<3>[   28.418615 / 05-09 10:28:22.850]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x478], g_device_flag[0x47a]
+<3>[   28.430300 / 05-09 10:28:22.860]-CPU:0 I[    kworker/0:4:  232] [PUSB][usb_interface_enum_cb]current[0x47a], g_device_flag[0x47a]
+<6>[   28.441886 / 05-09 10:28:22.870]-CPU:0 I[    kworker/0:4:  232] dwc3 f9200000.dwc3: Avail curr from USB = 500
+<7>[   28.451848 / 05-09 10:28:22.880]-CPU:2  [    kworker/u:1:   35] diag: USB connected
+<3>[   28.452676 / 05-09 10:28:22.880]-CPU:0  [    usb_manager:  397] [PUSB]mode_change_poll request
+<6>[   28.461005 / 05-09 10:28:22.890]-CPU:0  [    usb_manager:  397] [PUSB]device_mode_change_write Mode change command=[configured]
+<7>[   28.472021 / 05-09 10:28:22.900]-CPU:0  [    kworker/0:4:  232] IN Current 500mA -> 500mA[2]
+<7>[   28.473380 / 05-09 10:28:22.900]-CPU:0  [    kworker/0:4:  232] bq2419x_ichg_set : req ichg:2304 mA => ichg:2304 mA, val:28
+<6>[   28.474539 / 05-09 10:28:22.910]-CPU:2  [    usb_manager:  397] send_usb_event:  sent uevent [USB_STATE=CONFIGURED]
+<3>[   28.484487 / 05-09 10:28:22.920]-CPU:2  [    usb_manager:  397] [PUSB]mode_change_poll request
+<7>[   28.486511 / 05-09 10:28:22.920]-CPU:0  [    kworker/0:4:  232] vbus:1, online:1, current:500000, type:4, scope:2
+<6>[   28.495643 / 05-09 10:28:22.930]-CPU:2  [    kworker/u:1:   35] sps:BAM 0xfc834000 is registered.
+<6>[   28.505346 / 05-09 10:28:22.940]-CPU:2  [    kworker/u:5:  239] 8941_mvs1: 
+<3>[   28.513214 / 05-09 10:28:22.940]-CPU:2  [    kworker/u:5:  239] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   28.525837 / 05-09 10:28:22.960]-CPU:2  [    kworker/u:5:  239] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   28.538231 / 05-09 10:28:22.970]-CPU:1  [    kworker/u:1:   35] sps:BAM 0xfc834000 (va:0xc5a08000) enabled: ver:0x20, number of pipes:6
+<6>[   28.997278 / 05-09 10:28:23.430]-CPU:0  [    kworker/u:1:   35] 8941_mvs1: 
+<3>[   29.003807 / 05-09 10:28:23.430]-CPU:0  [    kworker/u:1:   35] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   29.018935 / 05-09 10:28:23.450]-CPU:0  [    kworker/u:1:   35] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   29.299163 / 05-09 10:28:23.730]-CPU:0  [    kworker/u:3:  177] 8941_mvs1: 
+<3>[   29.305775 / 05-09 10:28:23.740]-CPU:0  [    kworker/u:3:  177] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   29.319883 / 05-09 10:28:23.750]-CPU:0  [    kworker/u:3:  177] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   29.687278 / 05-09 10:28:24.119]-CPU:0  [  wcnss_service:  419] wcnss_wlan triggered by userspace
+<3>[   29.734993 / 05-09 10:28:24.169]-CPU:0  [  wcnss_service:  419] wcnss_trigger_config:  adc get failed
+<6>[   29.753089 / 05-09 10:28:24.179]-CPU:0  [  wcnss_service:  419] pil_pronto fb21b000.qcom,pronto: wcnss: loading from 0x06e00000 to 0x0740e000
+<6>[   29.838034 / 05-09 10:28:24.269]-CPU:0  [    kworker/u:3:  177] 8941_mvs1: 
+<3>[   29.844477 / 05-09 10:28:24.279]-CPU:3  [    kworker/u:3:  177] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   29.857160 / 05-09 10:28:24.289]-CPU:3  [    kworker/u:3:  177] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   29.885883 / 05-09 10:28:24.319]-CPU:0  [    kworker/u:3:  177] 8941_mvs1: 
+<3>[   29.892033 / 05-09 10:28:24.319]-CPU:0  [    kworker/u:3:  177] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   29.906166 / 05-09 10:28:24.339]-CPU:0  [    kworker/u:3:  177] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   29.941366 / 05-09 10:28:24.369]-CPU:0  [    kworker/u:3:  177] 8941_mvs1: 
+<3>[   29.951612 / 05-09 10:28:24.379]-CPU:3  [    kworker/u:3:  177] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   29.964046 / 05-09 10:28:24.389]-CPU:3  [    kworker/u:3:  177] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   30.001745 / 05-09 10:28:24.429]-CPU:0  [    kworker/u:3:  177] 8941_mvs1: 
+<3>[   30.014343 / 05-09 10:28:24.449]-CPU:0  [    kworker/u:3:  177] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   30.030115 / 05-09 10:28:24.459]-CPU:0  [    kworker/u:3:  177] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   30.053866 / 05-09 10:28:24.479]-CPU:3  [  wcnss_service:  419] pil_pronto fb21b000.qcom,pronto: wcnss: Brought out of reset
+<7>[   30.384971 / 05-09 10:28:24.819]-CPU:0  [    kworker/0:2:  141] non_conforming_chg_check_work enter
+<7>[   30.384985 / 05-09 10:28:24.819]-CPU:0  [    kworker/0:2:  141] USB external changed. [UDC_STATE:CONFIGURED]
+<6>[   31.021596 / 05-09 10:28:25.449]-CPU:0 I[jbd2/mmcblk0p29:  201] pil_pronto fb21b000.qcom,pronto: Subsystem error monitoring/handling services are up
+<6>[   31.035219 / 05-09 10:28:25.469]-CPU:3  [    kworker/u:1:   35] 8941_mvs1: 
+<3>[   31.041265 / 05-09 10:28:25.469]-CPU:3  [    kworker/u:3:  177] diag: In diag_send_msg_mask_update, invalid status 0
+<3>[   31.051635 / 05-09 10:28:25.479]-CPU:3  [    kworker/u:3:  177] diag: In diag_send_log_mask_update, invalid status 0
+<3>[   31.062215 / 05-09 10:28:25.489]-CPU:3  [    kworker/u:1:   35] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   31.067214 / 05-09 10:28:25.499]-CPU:0  [  irq/542-wcnss:   88] pil_pronto fb21b000.qcom,pronto: wcnss: Power/Clock ready interrupt received
+<6>[   31.087905 / 05-09 10:28:25.519]-CPU:3  [    kworker/u:1:   35] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   31.341480 / 05-09 10:28:25.769]-CPU:3  [    kworker/u:3:  177] 8941_mvs1: 
+<6>[   31.344089 / 05-09 10:28:25.769]-CPU:0  [    kworker/0:2:  141] wcnss_wlan_ctrl_probe: SMD ctrl channel up
+<6>[   31.344188 / 05-09 10:28:25.779]-CPU:0  [    kworker/0:2:  141] wcnss: version 01050102
+<6>[   31.344237 / 05-09 10:28:25.779]-CPU:0  [    kworker/0:2:  141] wcnss: schedule dnld work for pronto
+<6>[   31.344966 / 05-09 10:28:25.779]-CPU:0  [    kworker/0:2:  141] wcnss: build version MSM8974-PR_1_4_c2-00102
+<3>[   31.384421 / 05-09 10:28:25.819]-CPU:3  [    kworker/u:3:  177] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   31.397596 / 05-09 10:28:25.829]-CPU:3  [    kworker/u:3:  177] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<6>[   33.894169 / 05-09 10:28:28.329]-CPU:0  [    kworker/0:4:  232] wcnss: NV download
+<6>[   33.911427 / 05-09 10:28:28.339]-CPU:0  [    kworker/0:4:  232] wcnss: NV bin size: 29812, total_fragments: 10
+<3>[   33.921402 / 05-09 10:28:28.349]-CPU:0  [    kworker/0:4:  232] wcnss: no space available for smd frame
+<3>[   33.954374 / 05-09 10:28:28.389]-CPU:0  [    kworker/0:4:  232] wcnss: no space available for smd frame
+<3>[   33.984240 / 05-09 10:28:28.419]-CPU:0  [    kworker/0:4:  232] wcnss: no space available for smd frame
+<3>[   34.014243 / 05-09 10:28:28.449]-CPU:0  [    kworker/0:4:  232] wcnss: no space available for smd frame
+<3>[   34.069127 / 05-09 10:28:28.499]-CPU:0  [    kworker/0:4:  232] wcnss: not setting up vbatt
+<6>[   34.125087 / 05-09 10:28:28.559]-CPU:0  [    kworker/u:1:   35] 8941_mvs1: 
+<3>[   34.134208 / 05-09 10:28:28.569]-CPU:0  [    kworker/u:1:   35] qcom,qpnp-regulator qpnp-regulator-f5663700: Failed to find supply parent
+<6>[   34.146333 / 05-09 10:28:28.579]-CPU:0  [    kworker/u:1:   35] spmi qpnp-regulator-f5663700: Driver qcom,qpnp-regulator requests probe deferral
+<7>[   35.427630 / 05-09 10:28:29.859]-CPU:3  [  system_server: 1307] [+++ TOUCH] fts_resume
+<7>[   35.427642 / 05-09 10:28:29.859]-CPU:3  [  system_server: 1307] [+++ TOUCH] fts_start_device already power on
+<7>[   35.427650 / 05-09 10:28:29.859]-CPU:3  [  system_server: 1307] [+++ TM] pan_tm_key_resume
+<7>[   35.427657 / 05-09 10:28:29.859]-CPU:3  [  system_server: 1307] [+++ TM] pan_tm_key_resume : TM state is already APPMODE
+<6>[   35.505932 / 05-09 19:28:29.939]-CPU:3  [  system_server: 1307] reset timed out, waiting again..
+<3>[   35.520193 / 05-09 19:28:29.949]-CPU:0  [  system_server: 1307] fpc1080 spi32766.0: irq after reset timed out
+<7>[   35.563715 / 05-09 19:28:29.989]-CPU:0  [  system_server: 1307] lowmem_shrink: convert oom_adj to oom_score_adj:
+<7>[   35.563727 / 05-09 19:28:29.989]-CPU:0  [  system_server: 1307] oom_adj 0 => oom_score_adj 0
+<7>[   35.563735 / 05-09 19:28:29.989]-CPU:0  [  system_server: 1307] oom_adj 1 => oom_score_adj 58
+<7>[   35.563742 / 05-09 19:28:29.989]-CPU:0  [  system_server: 1307] oom_adj 2 => oom_score_adj 117
+<7>[   35.563749 / 05-09 19:28:29.989]-CPU:0  [  system_server: 1307] oom_adj 3 => oom_score_adj 176
+<7>[   35.563756 / 05-09 19:28:29.989]-CPU:0  [  system_server: 1307] oom_adj 9 => oom_score_adj 529
+<7>[   35.563763 / 05-09 19:28:29.989]-CPU:0  [  system_server: 1307] oom_adj 15 => oom_score_adj 1000
+<6>[   35.734274 / 05-09 19:28:30.169]-CPU:3  [    kworker/3:0:  695] load_phoneinfo_with_imei: read phone info start
+<6>[   35.743493 / 05-09 19:28:30.169]-CPU:3  [    kworker/3:0:  695] load_phoneinfo_with_imei: file open OK
+<6>[   35.775248 / 05-09 19:28:30.209]-CPU:3  [    kworker/3:0:  695] load_phoneinfo_with_imei: file open OK
+<6>[   35.783521 / 05-09 19:28:30.209]-CPU:3  [    kworker/3:0:  695] load_phoneinfo_with_imei: read Phoneinfo OK
+<6>[   35.814217 / 05-09 19:28:30.249]-CPU:3  [    kworker/3:0:  695] read_offset_from_rawdata: file open OK
+<6>[   35.824274 / 05-09 19:28:30.259]-CPU:3  [    kworker/3:0:  695] load_phoneinfo_with_imei: read IMEI OK
+<6>[   35.832725 / 05-09 19:28:30.259]-CPU:3  [    kworker/3:0:  695] load_phoneinfo_with_imei: read phone info end : read_count = 0
+<6>[   35.955886 / 05-09 19:28:30.389]-CPU:0  [           vold:  544] EXT4-fs (dm-0): mounted filesystem without journal. Opts: (null)
+<7>[   35.966675 / 05-09 19:28:30.399]-CPU:2  [           vold:  544] SELinux: initialized (dev dm-0, type ext4), uses xattr
+<6>[   35.988224 / 05-09 19:28:30.419]-CPU:0  [           vold:  544] EXT4-fs (dm-0): re-mounted. Opts: (null)
+<6>[   36.006125 / 05-09 19:28:30.439]-CPU:0  [           vold:  544] EXT4-fs (dm-0): re-mounted. Opts: (null)
+<6>[   36.249257 / 05-09 19:28:30.679]-CPU:0  [wifi_log_monito: 1400] wifi_log_open(82)
+<6>[   36.345068 / 05-09 19:28:30.779]-CPU:0  [WifiStateMachin: 1362] init_trace_config(8624):[WIFI]
+<6>[   36.352712 / 05-09 19:28:30.779]-CPU:0  [WifiStateMachin: 1362] wlan: loading driver v3.2.3.172
+<7>[   36.361733 / 05-09 19:28:30.799]-CPU:0  [WifiStateMachin: 1362] wlan_get_oem_hw_rev: hw board rev = 4
+<3>[   36.361774 / 05-09 19:28:30.799]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:F :HDD] hdd_driver_init: board_rev = 4
+<3>[   36.375689 / 05-09 19:28:30.809]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:E :HDD] hdd_apply_cfg_ini: MAX_CFG_INI_ITEMS too small, must be at least 366
+<7>[   36.444244 / 05-09 19:28:30.879]-CPU:3  [WifiStateMachin: 1362] wlan_get_oem_hw_rev: hw board rev = 4
+<3>[   36.444269 / 05-09 19:28:30.879]-CPU:3  [WifiStateMachin: 1362] wlan: [1362:F :HDD] hdd_request_firmware: wlan/prima/WCNSS_qcom_wlan_nv.bin
+<3>[   36.459828 / 05-09 19:28:30.889]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:E :VOS] INFO: NV binary file version=2 Driver default NV version=2, continue...
+<3>[   36.459835 / 05-09 19:28:30.889]-CPU:0  [WifiStateMachin: 1362] 
+<6>[   36.465720 / 05-09 19:28:30.899]-CPU:3  [  system_server: 1307] acc_open
+<6>[   36.465742 / 05-09 19:28:30.899]-CPU:3  [  system_server: 1307] acc_release
+<6>[   36.493497 / 05-09 19:28:30.929]-CPU:0  [WifiStateMachin: 1362] DefaultCountry is KR
+<3>[   36.515492 / 05-09 19:28:30.949]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:E :HDD] hdd_wlan_startup: Invalid MAC address in NV, using MAC from ini file 00:0a:f5:89:89:ff
+<7>[   36.709503 / 05-09 19:28:31.139]-CPU:0  [   AsyncTask #1: 1429] [+++ TOUCH] fts_resume
+<7>[   36.709516 / 05-09 19:28:31.139]-CPU:0  [   AsyncTask #1: 1429] [+++ TOUCH] fts_start_device already power on
+<7>[   36.709525 / 05-09 19:28:31.139]-CPU:0  [   AsyncTask #1: 1429] [+++ TM] pan_tm_key_resume
+<7>[   36.709533 / 05-09 19:28:31.139]-CPU:0  [   AsyncTask #1: 1429] [+++ TM] pan_tm_key_resume : TM state is already APPMODE
+<3>[   36.744296 / 05-09 19:28:31.179]-CPU:3  [   AsyncTask #1: 1429]  31 backlight level = 350 AOR = 0xa ELVSS = 0x8b TEMP = 0x3a lock = 0x1 ctrl->onflag = 0
+<3>[   36.794179 / 05-09 19:28:31.229]-CPU:0  [       mdss_fb0:  638]  31 backlight level = 350 AOR = 0xa ELVSS = 0x8b TEMP = 0x3a lock = 0x1 ctrl->onflag = 0
+<6>[   39.422643 / 05-09 19:28:33.849]-CPU:3  [   AsyncTask #1: 1861] pn547_dev_ioctl power on
+<6>[   39.555302 / 05-09 19:28:33.989]-CPU:3  [   AsyncTask #1: 1861] pn547_dev_ioctl power off
+<6>[   39.662430 / 05-09 19:28:34.089]-CPU:3  [d.process.media: 1524] mtp_open
+<6>[   39.734307 / 05-09 19:28:34.169]-CPU:3  [   AsyncTask #1: 1861] pn547_dev_ioctl power on
+<7>[   40.259881 / 05-09 19:28:34.689]-CPU:0  [    kworker/0:2:  141] [SOC:63, VCELL:3823750, TEMP:346, chg state:charging, pg:connected, vin:powered, REG08:0x6c]
+<6>[   40.549855 / 05-09 19:28:34.979]-CPU:0  [WifiStateMachin: 1362] wlan: WCNSS WLAN version 1.5.1.2
+<3>[   40.550924 / 05-09 19:28:34.979]-CPU:2  [      MC_Thread: 1404] wlan: [1404:E :WDA] Update channel list capability Not Supported
+<6>[   40.569547 / 05-09 19:28:34.999]-CPU:0  [WifiStateMachin: 1362] wlan: WCNSS software version MSM8974-PR_1_4_c2-00102
+<6>[   40.580078 / 05-09 19:28:35.009]-CPU:0  [WifiStateMachin: 1362] wlan: WCNSS hardware version WCN v2.0 RadioPhy vIris_TSMC_3.0 with 48MHz XO
+<3>[   40.593281 / 05-09 19:28:35.029]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:E :CTL] Host caps 34c001ff 0 0 80000000
+<3>[   40.593291 / 05-09 19:28:35.029]-CPU:0  [WifiStateMachin: 1362] 
+<3>[   40.609560 / 05-09 19:28:35.039]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:E :CTL] Host Capability
+<3>[   40.618171 / 05-09 19:28:35.049]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:E :CTL] 		MCC, P2P, DOT11AC, SLM_SESSIONIZATION, DOT11AC_OPMODE, SAP32STA, TDLS, P2P_GO_NOA_DECOUPLE_INIT_SCAN, WLANACTIVE_OFFLOAD, WOW, WLAN_ROAM_SCAN_OFFLOAD, , , , 
+<3>[   40.641070 / 05-09 19:28:35.069]-CPU:2  [      MC_Thread: 1404] wlan: [1404:E :CTL] FW caps 7df877ff 8 0 0
+<3>[   40.641081 / 05-09 19:28:35.069]-CPU:2  [      MC_Thread: 1404] 
+<6>[   40.642649 / 05-09 19:28:35.069]-CPU:0  [WifiStateMachin: 1362] DefaultCountry is KR
+<7>[   40.643854 / 05-09 19:28:35.069]-CPU:0  [WifiStateMachin: 1362] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+<7>[   40.643874 / 05-09 19:28:35.069]-CPU:0  [WifiStateMachin: 1362] ieee80211 phy0: country: KR set by driver
+<7>[   40.645164 / 05-09 19:28:35.079]-CPU:0  [WifiStateMachin: 1362] [+++ LED trigger] Registered trigger name: rfkill0
+<3>[   40.645250 / 05-09 19:28:35.079]-CPU:0  [WifiStateMachin: 1362] wlan_hdd_get_intf_addr : mac read prima.bin
+<6>[   40.645310 / 05-09 19:28:35.079]-CPU:0  [WifiStateMachin: 1362] wlan_hdd_get_intf_addr : mac read prima.bin
+<3>[   40.650155 / 05-09 19:28:35.079]-CPU:0  [WifiStateMachin: 1362] mac read completed mac[0]0 , mac[1]12, mac[2]34
+<3>[   40.650227 / 05-09 19:28:35.079]-CPU:0  [WifiStateMachin: 1362] mac read completed mac[3]56 , mac[4]78, mac[5]90
+<3>[   40.703481 / 05-09 19:28:35.129]-CPU:2  [      MC_Thread: 1404] wlan: [1404:E :CTL] Firmware Capability
+<3>[   40.712520 / 05-09 19:28:35.139]-CPU:2  [      MC_Thread: 1404] wlan: [1404:E :CTL] 		MCC, P2P, DOT11AC, SLM_SESSIONIZATION, DOT11AC_OPMODE, SAP32STA, TDLS, P2P_GO_NOA_DECOUPLE_INIT_SCAN, WLANACTIVE_OFFLOAD, BEACON_OFFLOAD, SCAN_OFFLOAD, BCN_MISS_OFFLOAD, STA_POWERSAVE, , BCN_FILTER, RTT, RATECTRL, WOW, WLAN_ROAM_SCAN_OFFLOAD, , , , , , , 
+<3>[   40.755639 / 05-09 19:28:35.189]-CPU:0  [WifiStateMachin: 1362] wlan: [1362:E :HDD] wlan_hdd_tdls_init TDLS Implicit trigger not enabled!
+<3>[   40.780193 / 05-09 19:28:35.209]-CPU:3  [WifiStateMachin: 1362] wlan_hdd_get_intf_addr : mac read prima.bin
+<6>[   40.789480 / 05-09 19:28:35.219]-CPU:3  [WifiStateMachin: 1362] wlan_hdd_get_intf_addr : mac read prima.bin
+<3>[   40.803374 / 05-09 19:28:35.229]-CPU:3  [WifiStateMachin: 1362] mac read completed mac[0]0 , mac[1]12, mac[2]34
+<3>[   40.812905 / 05-09 19:28:35.239]-CPU:3  [WifiStateMachin: 1362] mac read completed mac[3]56 , mac[4]78, mac[5]90
+<7>[   40.851307 / 05-09 19:28:35.279]-CPU:0  [    kworker/0:2:  141] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+<7>[   40.851331 / 05-09 19:28:35.279]-CPU:0  [    kworker/0:2:  141] ieee80211 phy0: country: KR set by driver
+<7>[   40.851496 / 05-09 19:28:35.279]-CPU:0  [    kworker/0:2:  141] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+<7>[   40.851513 / 05-09 19:28:35.279]-CPU:0  [    kworker/0:2:  141] ieee80211 phy0: country: KR set by driver
+<6>[   40.851593 / 05-09 19:28:35.279]-CPU:0  [WifiStateMachin: 1362] wlan: driver loaded
+<3>[   41.167334 / 05-09 19:28:35.599]-CPU:2  [ wpa_supplicant: 2029] wlan: [2029:E :PMC] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+<6>[   41.182027 / 05-09 19:28:35.609]-CPU:2  [ wpa_supplicant: 2029] ADDRCONF(NETDEV_UP): p2p0: link is not ready
+<3>[   41.223143 / 05-09 19:28:35.649]-CPU:1  [ wpa_supplicant: 2029] wlan: [2029:E :HDD] wlan_hdd_cfg80211_flush_pmksa: Invalid entry to delete
+<6>[   41.354305 / 05-09 19:28:35.789]-CPU:0  [    kworker/0:2:  141] wcnss_post_bootup: Cancel APPS vote for Iris & WCNSS
+<3>[   41.355890 / 05-09 19:28:35.789]-CPU:1  [ wpa_supplicant: 2029] wlan: [2029:E :PMC] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+<6>[   41.356577 / 05-09 19:28:35.789]-CPU:1  [ wpa_supplicant: 2029] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<3>[   41.406525 / 05-09 19:28:35.839]-CPU:1  [ wpa_supplicant: 2029] wlan: [2029:E :HDD] wlan_hdd_cfg80211_flush_pmksa: Invalid entry to delete
+<6>[   41.517673 / 05-09 19:28:35.949]-CPU:1  [          qrngp: 2049] calling msm_rng_bus_scale(LOW)
+<6>[   41.548356 / 05-09 19:28:35.979]-CPU:0  [             sh: 2048] msm_thermal: Core control disabled
+<6>[   41.624030 / 05-09 19:28:36.049]-CPU:0  [             sh: 2048] msm_thermal: Core control enabled
+<7>[   41.893357 / 05-09 19:28:36.319]-CPU:3  [    kworker/3:0:  695] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+<7>[   41.893391 / 05-09 19:28:36.319]-CPU:3  [    kworker/3:0:  695] ieee80211 phy0: country: KR set by driver
+<3>[   42.097191 / 05-09 19:28:36.529]-CPU:0 I[       Binder_6: 1600] qup_i2c f9928000.i2c: QUP: I2C status flags :0xc1300c8, irq:132
+<3>[   42.108669 / 05-09 19:28:36.539]-CPU:0  [   AsyncTask #1: 1920] qup_i2c f9928000.i2c: I2C slave addr:0x28 not connected
+<3>[   42.120168 / 05-09 19:28:36.549]-CPU:0  [   AsyncTask #1: 1920] pn547_dev_write : i2c_master_send returned -107
+<3>[   45.704391 / 05-09 19:28:40.139]-CPU:1  [      MC_Thread: 1404] wlan: [1404:E :PE ] wlan_cfgGetInt: 348: Not valid cfg id 1
+<6>[   45.743611 / 05-09 19:28:40.169]-CPU:0  [      MC_Thread: 1404] wlan: 00:0f:e4:8e:90:06 connected to 00:26:66:1b:8c:a8
+<6>[   45.754255 / 05-09 19:28:40.189]-CPU:0  [      MC_Thread: 1404] wlan(9) 00:26:66:1b:8c:a8 Standalone
+<6>[   45.763576 / 05-09 19:28:40.189]-CPU:0  [    kworker/0:2:  141] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+<7>[   45.774605 / 05-09 19:28:40.209]-CPU:1  [    kworker/1:1: 1740] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+<7>[   45.774634 / 05-09 19:28:40.209]-CPU:1  [    kworker/1:1: 1740] ieee80211 phy0: country: KR set by driver
+<3>[   45.916265 / 05-09 19:28:40.349]-CPU:0  [ wpa_supplicant: 2029] wlan: [2029:E :SME] sme_FTUpdateKey: Unhandled state=0
+<3>[   45.929994 / 05-09 19:28:40.359]-CPU:0  [ wpa_supplicant: 2029] wlan: [2029:E :SME] sme_FTUpdateKey: Unhandled state=0
+<3>[   46.030034 / 05-09 19:28:40.459]-CPU:1  [ wpa_supplicant: 2029] wlan: [2029:E :HDD] Batch scan is not yet enabled could not return resultsBatch Scan state 1
+<3>[   46.045874 / 05-09 19:28:40.479]-CPU:1  [ wpa_supplicant: 2029] wlan: [2029:E :HDD] Batch scan is not yet enabled batch scan state 1
+<3>[   46.476035 / 05-09 19:28:40.909]-CPU:0 I[      RX_Thread: 1406] qtaguid: iface_stat: stat_update() wlan0 not found
+<3>[   47.499833 / 05-09 19:28:41.929]-CPU:0 I[      RX_Thread: 1406] qtaguid: iface_stat: stat_update() wlan0 not found
+<3>[   48.123204 / 05-09 19:28:42.549]-CPU:0  [           init:    1] init: sys_prop: permission denied uid:1003  name:service.bootanim.exit
+<3>[   48.521054 / 05-09 19:28:42.949]-CPU:0 I[      RX_Thread: 1406] qtaguid: iface_stat: stat_update() wlan0 not found
+<3>[   49.547848 / 05-09 19:28:43.979]-CPU:0 I[      RX_Thread: 1406] qtaguid: iface_stat: stat_update() wlan0 not found
+<6>[   50.021219 / 05-09 19:28:44.449]-CPU:2  [  system_server: 1307] gpio_switch_disable_irq : disable smart_cover irq
+<3>[   50.670814 / 05-09 19:28:45.099]-CPU:0 I[      RX_Thread: 1406] qtaguid: iface_stat: stat_update() wlan0 not found
+<7>[   53.918180 / 05-09 19:28:48.349]-CPU:1  [ndroid.settings: 2590] [+++ TOUCH] Touch Mode is 0
+<7>[   53.918639 / 05-09 19:28:48.349]-CPU:1  [ndroid.settings: 2590] [+++ TM] pan_tm_set_mode : set TM_KEY normal mode
+<3>[   54.102504 / 05-09 19:28:48.529]-CPU:0  [      MC_Thread: 1404] wlan: [1404:E :SME] sme_QosPmcDeviceStateUpdateInd: 7354: nothing to process in PMC state 6
+<3>[   54.115725 / 05-09 19:28:48.549]-CPU:0  [      MC_Thread: 1404] wlan: [1404:E :TL ]  ----> CRegion 0, hRSSI 0, Alpha 5
+<3>[   55.686328 / 05-09 19:28:50.119]-CPU:0  [      MC_Thread: 1404] wlan: [1404:E :PE ] limProcessAddBaInd: 5624: BA setup for staId = 3, TID: 0, SSN: 16
+<3>[   55.701509 / 05-09 19:28:50.129]-CPU:3  [      MC_Thread: 1404] wlan: [1404:E :PE ] __limProcessAddBARsp: 1447: ADDBA Rsp from STA with AID 1, tid = 0, status = 0
+<6>[   56.246452 / 05-09 19:28:50.802]-CPU:2  [NetworkTimeUpda: 1564] alarm_set_rtc: Failed to set RTC, time will be lost on reboot
+<7>[   65.274158 / 05-09 19:28:59.821]-CPU:0 I[   AsyncTask #1: 3864] wlan0: no IPv6 routers present
